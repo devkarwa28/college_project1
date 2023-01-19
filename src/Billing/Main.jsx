@@ -1,4 +1,5 @@
 import React from 'react'
+import cart_detail from './Cart-detail';
 import Cart_Item from './Cart-Item'
 import PriceDetails from './PriceDetails'
 
@@ -26,10 +27,22 @@ function Main() {
                             </div>
 
                             <div className="items">
-                            <Cart_Item/>
-                            <Cart_Item/>
-                            <Cart_Item/>
-                            <Cart_Item/>
+                            {cart_detail.map(function pCart(val){
+                                return(
+                                    <>
+                                        <Cart_Item
+                                        key={val.id}
+                                        imglink={val.imglink}
+                                        productName={val.productName}
+                                        bedSize={val.bedSize}
+                                        finishName={val.finishName}
+                                        productPrice={val.productPrice}
+                                        discountPrice={val.discountPrice}
+                                        savingPrice={val.savingPrice}
+                                        />
+                                    </>
+                                )
+                            })}
                             </div>
 
                         </div>

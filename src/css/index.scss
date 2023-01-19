@@ -1110,14 +1110,17 @@ a:hover {
     height: fit-content;
     margin: auto 0px;
     margin-left: 54px;
+    display: flex;
 }
 .input-qty {
     text-align: center;
-    padding: 6px 10px;
+    padding: 6px 15px;
     border: 1px solid #d4d4d4;
     max-width: 50px;
     height: 38px;
     background: transparent;
+    margin-bottom: 0px;
+    line-height: 1.5;
 }
 .qty-btn-minus,
 .qty-btn-plus {
@@ -1131,11 +1134,11 @@ a:hover {
     background: transparent;
 }
 .qty-btn-plus {
-    margin-left: -5px;
+    margin-left: 0px;
     border-left: 0px;
 }
 .qty-btn-minus {
-    margin-right: -5px;
+    margin-right: 0px;
     border-right: 0px;
 }
 
