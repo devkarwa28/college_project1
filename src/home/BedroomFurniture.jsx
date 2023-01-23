@@ -44,7 +44,7 @@ function BedroomFurniture() {
                 <div className="container">
                     <div className="d-flex justify-content-between">
                         <div>
-                            <h1 className="jost font-24 fw-500 color-22222" >Bedroom Furniture</h1>
+                            <h1>Bedroom Furniture</h1>
                             <h2 className="font-16 jost color-767676">
                                 Explore beds online and find the
                                 one that's perfect for you

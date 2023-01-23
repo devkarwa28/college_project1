@@ -45,8 +45,8 @@ function Essentials() {
         <>
             <section class="container-fluid section-3">
                 <div class="container">
-                    <h1 class="font-24 jost fw-500">Furniture Essentials For Your Home</h1>
-                    <p class="jost font-16">
+                    <h1>Furniture Essentials For Your Home</h1>
+                    <p>
                         Buy Furniture Online in India, made in Solid Sheesham Wood, craft fully Treated and Seasoned. <a href="">Ream More</a>.
                     </p>
 

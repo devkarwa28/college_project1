@@ -12,26 +12,26 @@ function Header(){
         <>
             <header>
         <div  className="container2">
-            <div  className="d-flex">
-                <Link to='/'><img src={img1} alt=""/></Link>
-                <div  className="search">
+            <div  className="d-flex header-main">
+                <Link to='/'><img src={img1} alt="" className="logo"/></Link>
+                <div  className="search sm-none">
                     <input type="text" placeholder="Search Products, Colors & More.."/>
                     <button type="submit">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
-                <div  className="store d-flex">
+                <div  className="store sm-none d-lg-flex">
                     <img src={img3}/>
                     <span  className="font-13">Stores</span>
                 </div>
                 <div  className="account">
-                    <img src={img4} />
-                    <img src={img5} />
-                    <img src={img6} className="me-0" />
+                    <Link><img src={img4}/></Link>
+                    <Link><img src={img5} /></Link>
+                    <Link><img src={img6} className="me-0" /></Link>
                 </div>
 
             </div>
-            <nav>
+            <nav className="sm-none">
                 <ul  className="ul-reset">
                     <li><a href='#'>SOFA</a></li>
                     <li  className='droppable'>

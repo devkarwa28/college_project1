@@ -11,8 +11,8 @@ function ClientReview(){
         <>
             <section className="section-12 container-fluid">
         <div className="container">
-            <h1 className="jost font-24 fw-500 color-22222 text-center">What Our Happy Client Say</h1>
-            <h2 className="jost font-16 fw-normal color-767676 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</h2>
+            <h1>What Our Happy Client Say</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</h2>
             <div className="row">
                 <div className="col-lg-3">
                     <img src={img1} alt=""/>

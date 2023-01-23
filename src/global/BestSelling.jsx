@@ -44,8 +44,8 @@ function BestSelling() {
         <>
             <section className="container-fluid section-4">
                 <div className="container">
-                    <h1 className="jost fw-500 font-24 text-center">Best Selling Products</h1>
-                    <p className="font-16 font-16 text-center">
+                    <h1>Best Selling Products</h1>
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida
                     </p>
                     <div className="row">

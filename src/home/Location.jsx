@@ -15,8 +15,8 @@ function Location(){
         <>
         <section className="section-10 container-fluid">
         <div className="container">
-            <h1 className="jost color-22222 font-24 fw-500 text-center">#Jodhpuri Furniture</h1>
-            <h2 className="jost font-16 color-767676 text-center">Offline Furniture Experience Store</h2>
+            <h1>#Jodhpuri Furniture</h1>
+            <h2 >Offline Furniture Experience Store</h2>
 
             <div className="row">
             <Slider {...settings}>

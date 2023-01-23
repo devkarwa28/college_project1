@@ -96,6 +96,21 @@ a {
   padding: 16px;
 }
 
+.slick-prev i, .slick-next i {
+  z-index: 9;
+}
+.slick-prev::before, .slick-next::before {
+  content: " " !important;
+}
+
+.slick-prev {
+  left: 0px !important;
+}
+
+.slick-next {
+  right: 0px !important;
+}
+
 .m-r-16 {
   margin-right: 16px;
 }
@@ -223,8 +238,7 @@ header .container2 .account i:hover {
   line-height: 69px;
 }
 .section-1 .btn-1 {
-  width: 113px;
-  height: 42px;
+  padding: 14px 24px;
   background-color: #EB7700;
   border: 0px;
   border-radius: 4px;
@@ -275,6 +289,9 @@ header .container2 .account i:hover {
   position: absolute !important;
   z-index: 5;
 }
+.slick-prev::before, .slick-next::before {
+  content: " ";
+}
 
 .border {
   border: 1px solid #ebebeb;
@@ -284,7 +301,20 @@ header .container2 .account i:hover {
   margin-top: 38px;
   text-align: center;
 }
+.section-2 h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+}
 .section-2 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
   color: #767676;
 }
 .section-2 span {
@@ -322,10 +352,21 @@ header .container2 .account i:hover {
   text-align: center;
 }
 .section-3 .container h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
   margin-bottom: 6px;
 }
 .section-3 .container p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
   color: #767676;
+  margin-bottom: 34px;
 }
 .section-3 .container p a {
   color: #E95B1B;
@@ -371,9 +412,24 @@ header .container2 .account i:hover {
 .section-4 .slick-slider {
   padding: 0px !important;
 }
+.section-4 .container h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 6px;
+}
 .section-4 .container p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
   color: #767676;
   margin-bottom: 34px;
+  text-align: center;
 }
 .section-4 .container strike {
   color: #767676;
@@ -435,7 +491,20 @@ header .container2 .account i:hover {
   padding: 0px !important;
 }
 .section-6 h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #222222;
   margin-bottom: 6px;
+}
+.section-6 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
 }
 .section-6 .sec6-box {
   margin-top: 34px;
@@ -478,7 +547,21 @@ header .container2 .account i:hover {
 .section-7 .slick-slider {
   padding: 0px !important;
 }
-.section-7 h2 {
+.section-7 h1 {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  color: #222222;
+  margin-bottom: 6px;
+}
+.section-7 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
   margin-bottom: 34px;
 }
 .section-7 h3 {
@@ -564,7 +647,22 @@ header .container2 .account i:hover {
 .section-9 .slick-slider {
   padding: 0px !important;
 }
-.section-9 h2 {
+.section-9 h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 6px;
+}
+.section-9 p {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
+  text-align: center;
   margin-bottom: 34px;
 }
 .section-9 h3 {
@@ -607,7 +705,22 @@ header .container2 .account i:hover {
 .section-10 .slick-slider {
   padding: 0px !important;
 }
+.section-10 h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 6px;
+}
 .section-10 h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
+  text-align: center;
   margin-bottom: 34px;
 }
 .section-10 h3 {
@@ -667,7 +780,22 @@ header .container2 .account i:hover {
   background: #f4f9fc;
   padding: 48px 0px 56px 0px;
 }
+.section-12 h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 6px;
+}
 .section-12 h2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #767676;
+  text-align: center;
   margin-bottom: 40px;
 }
 .section-12 img {
@@ -1574,4 +1702,56 @@ a:hover {
 }
 .about-us-5 li {
   line-height: 40px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .sm-none {
+    display: none !important;
+  }
+  header {
+    margin-top: 0px;
+  }
+  header .container2 .header-main {
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  header .container2 .logo {
+    width: 100px;
+    height: 50px;
+  }
+  header .container2 .account {
+    margin-left: 0px;
+  }
+  header .container2 .account img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+  }
+  .section-1 {
+    padding: 0px !important;
+  }
+  .section-1 .sm-padding-x {
+    padding: 0px;
+  }
+  .section-1 .btn-1 {
+    display: none;
+  }
+  .section-1 .slick-prev, .section-1 .slick-next {
+    top: 77px !important;
+  }
+  .section-1 .bg-background1 {
+    height: 182px;
+    padding: 0px 0px 0px 12px;
+    background-size: 100%;
+  }
+  .section-1 .bg-background1 h1 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .section-1 .bg-background1 h2 {
+    font-size: 15px;
+  }
+  .section-2 .m-b31 {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */

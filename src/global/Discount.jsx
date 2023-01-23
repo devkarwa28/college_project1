@@ -3,7 +3,7 @@ import React from "react";
 function Discount(){
     return(
         <>
-            <div className="discount container-fluid">
+            <div className="discount container-fluid sm-none">
         <div className="container">
             <div className="header-1 d-flex justify-content-between">
                 <h1 className="font-13 inter mb-0">

@@ -1,3 +1,36 @@
+@import "variables";
+
+@mixin heading-center{
+    font-family: $ff-1;
+font-weight: $fw-500;
+font-size: $f-24;
+line-height: 35px;
+text-align: center;
+color: $black;
+}
+@mixin heading{
+    font-family: $ff-1;
+font-style: normal;
+font-weight: $fw-500;
+font-size: $f-24;
+line-height: 35px;
+color: $black;
+}
+@mixin paragraph{
+    font-family: $ff-1;
+font-weight: 400;
+font-size: $f-16;
+line-height: 23px;
+color: $main-color3;
+}
+
+
+
+
+
+
+
+
 @mixin center-grid{
     display: grid;
     justify-content: center;

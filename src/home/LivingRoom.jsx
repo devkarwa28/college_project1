@@ -42,10 +42,10 @@ function LivingRoom() {
         <>
             <section className="container-fluid section-6">
                 <div className="container">
-                    <h1 className="jost font-24 fw-500 color-22222" >Living Room Furniture</h1>
-                    <h2 className="font-16 jost color-767676">
+                    <h1 >Living Room Furniture</h1>
+                    <p>
                     Explore a variety of sofa set designs and bring something extra special to your living area
-                    </h2>
+                    </p>
 
                     <div className="row">
                         <Slider {...settings}>

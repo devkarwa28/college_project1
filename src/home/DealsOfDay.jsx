@@ -42,8 +42,8 @@ function DealsOfDay() {
         <>
             <section className="section-9 container-fluid">
                 <div className="container">
-                    <h1 className="jost fw-500 font-24 color-22222 text-center">Deals Of The Day</h1>
-                    <h2 className="fw-normal jost font-16 color-767676 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</h2>
+                    <h1>Deals Of The Day</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</p>
 
                     <div className="row">
                         <Slider {...settings}>

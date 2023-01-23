@@ -42,10 +42,10 @@ function DinningRoom() {
         <>
             <section className="container-fluid section-7 px-0">
                 <div className="container">
-                    <h1 className="jost font-24 fw-500 color-22222" >Dining Room Furniture</h1>
-                    <h2 className="font-16 jost color-767676">
+                    <h1>Dining Room Furniture</h1>
+                    <p className="font-16 jost color-767676">
                         Explore dining table sets and find the one that's just right for you
-                    </h2>
+                    </p>
 
                     <div className="row">
                         <Slider {...settings}>
