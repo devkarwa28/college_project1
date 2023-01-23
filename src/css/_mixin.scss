@@ -7,6 +7,10 @@ font-size: $f-24;
 line-height: 35px;
 text-align: center;
 color: $black;
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    font-size: $f-20;
+    line-height: 28px;
+}
 }
 @mixin heading{
     font-family: $ff-1;
@@ -22,6 +26,10 @@ font-weight: 400;
 font-size: $f-16;
 line-height: 23px;
 color: $main-color3;
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    font-size: 14px;
+    line-height: 19px;
+}
 }
 
 

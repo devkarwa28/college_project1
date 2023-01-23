@@ -13,105 +13,105 @@ function WideRange(){
                 Visit our shop to see amazing creations from our designers.
             </p>
             <div className="row m-b31">
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>Sofa Sets</span>
+                    <h6>Sofa Sets</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img2} alt=""/>
                     </div>
-                    <span>Beds</span>
+                    <h6>Beds</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img3} alt=""/>
                     </div>
-                    <span>Dinning Sets</span>
+                    <h6>Dinning Sets</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>TV Units</span>
+                    <h6>TV Units</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>Book Shelves</span>
+                    <h6>Book Shelves</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>Study Tables</span>
+                    <h6>Study Tables</h6>
                     </div>
                 </div>
             
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>Shoe Racks</span>
+                    <h6>Shoe Racks</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img2} alt=""/>
                     </div>
-                    <span>Wardrobes</span>
+                    <h6>Wardrobes</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img3} alt=""/>
                     </div>
-                    <span>Sofa Cum Beds</span>
+                    <h6>Sofa Cum Beds</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img1} alt=""/>
                     </div>
-                    <span>Chest Of Drawers</span>
+                    <h6>Chest Of Drawers</h6>
                     </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                    <div>
                    <div className="cat-box">
                         <img src={img2} alt=""/>
                     </div>
-                    <span>Cabinets & Sideboards</span>
+                    <h6>Cabinets & Sideboards</h6>
                    </div>
                 </div>
-                <div className="col-6 col-lg-2">
+                <div className="col-4 col-lg-2">
                     <div>
                     <div className="cat-box">
                         <img src={img3} alt=""/>
                     </div>
-                    <span>Book Shelves</span>
+                    <h6>Book Shelves</h6>
                     </div>
                 </div>
             </div>
-            <div className="border"></div>
+            <div className="border sm-none"></div>
         </div>
     </section>
         </>
