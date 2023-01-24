@@ -20,7 +20,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 95, left: 1364 }}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 95, right: 0 }}
             onClick={onClick}
         >
             <i class="fa-solid fa-angle-right text-center font-16 ms-2"></i>
@@ -38,7 +38,33 @@ function BestSelling() {
         autoplaySpeed: 5000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <>
@@ -50,8 +76,6 @@ function BestSelling() {
                     </p>
                     <div className="row">
                         <Slider {...settings}>
-
-
                             {pData.map(function pCard(val) {
                                 return (
                                     <>

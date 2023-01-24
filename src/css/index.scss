@@ -335,8 +335,7 @@ header {
 .section-4 {
     margin-top: 70px;
     .slick-slide {
-        width: 324px !important;
-        margin: 0px 12px;
+        padding: 0px 12px;
     }
     .slick-slider {
         padding: 0px !important;
@@ -1590,4 +1589,42 @@ a:hover {
         }
     }
     // section 2 ended
+
+    // section 3 started
+    .section-3 {
+        .slick-prev, .slick-next {
+            top: 175px !important;
+        }
+        .container{
+            .bg-sec3 {
+                width: 100%;
+                height: 390px;
+            }
+            .sec3-box{
+                width: 90%;
+                padding-top: 10px;
+                h2{
+                    font-size: $f-24;
+                    line-height: 30px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    // section 4
+    .section-4{
+        .container{
+            p {
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .sec4-box{
+                h3 {
+                    margin-top: 8px;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+    }
+    // section 4 ended
 }

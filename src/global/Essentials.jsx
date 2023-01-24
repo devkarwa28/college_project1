@@ -21,7 +21,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, opacity: 1, placeItems: "center", top: 220, left: 1370 }}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, opacity: 1, placeItems: "center", top: 220, right: 0 }}
             onClick={onClick}
         >
             <i class="fa-solid fa-angle-right text-center font-16 ms-2"></i>
