@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import Card2 from "../global/Card2";
+import { Card2_detail } from "../global/P-data";
 
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
@@ -18,7 +20,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 130, left: 1370 }}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 130, right: 0 }}
             onClick={onClick}
         >
             <i class="fa-solid fa-angle-right text-center font-16 ms-2"></i>
@@ -36,7 +38,33 @@ function LivingRoom() {
         autoplaySpeed: 3000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <>
@@ -49,68 +77,18 @@ function LivingRoom() {
 
                     <div className="row">
                         <Slider {...settings}>
-
-                            <div>
-                                <div className="sec6-box">
-                                    <div className="sec6-bg1">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
-
-                            <div>
-                                <div className="sec6-box">
-                                    <div className="sec6-bg2">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec6-box">
-                                    <div className="sec6-bg3">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec6-box">
-                                    <div className="sec6-bg4">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
-                            <div>
-                            <div className="sec6-box">
-                                    <div className="sec6-bg3">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
-                            <div>
-                            <div className="sec6-box">
-                                    <div className="sec6-bg2">
-
-                                    </div>
-                                    <h3 className="font-16 jost color-22222">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-15 color-767676">Starting from ₹28,000</span>
-
-                                </div>
-                            </div>
+                        {Card2_detail.map(function card__2(val){
+                            return(
+                                <>
+                                    <Card2
+                                        key = {val.id}
+                                        imglink = {val.imglink}
+                                        productName = {val.productName}
+                                        startingPrice = {val.startingPrice}
+                                    />
+                                </>
+                            )
+                        })}
                         </Slider>
                     </div>
                 </div>

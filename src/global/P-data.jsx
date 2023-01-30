@@ -56,4 +56,56 @@ const pData = [
         sPrice: "51,921"
     },
 ];
+
+const Card2_detail = [
+    {
+        id : 0,
+        imglink : "images/sec6-1.png",
+        productName : "Kimber King Size Bed Without Storage",
+        startingPrice : "30,000"
+    },
+    {
+        id : 1,
+        imglink : "images/sec6-2.png",
+        productName : "Xavier Bed With Storage",
+        startingPrice : "35,890"
+    },
+    {
+        id : 2,
+        imglink : "images/sec6-3.png",
+        productName : "Drake King Size Bed without Storage",
+        startingPrice : "63,567"
+    },
+    {
+        id : 3,
+        imglink : "images/sec6-4.png",
+        productName : "Laurel King Size Bed without Storage",
+        startingPrice : "30,000"
+    },
+    {
+        id : 4,
+        imglink : "images/sec6-1.png",
+        productName : "Olivia King Size Bed with Uplift Storage",
+        startingPrice : "30,000"
+    },
+    {
+        id : 5,
+        imglink : "images/sec6-3.png",
+        productName : "Kyra King Size Bed With Drawer Storage",
+        startingPrice : "30,000"
+    },
+    {
+        id : 6,
+        imglink : "images/sec6-2.png",
+        productName : "Dalia King Size Bed with Drawer Storage",
+        startingPrice : "30,000"
+    },
+    {
+        id : 7,
+        imglink : "images/sec6-4.png",
+        productName : "Franci King Size Poster Bed without storage ",
+        startingPrice : "30,000"
+    }
+]
 export default pData;
+export { Card2_detail };

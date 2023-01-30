@@ -284,7 +284,7 @@ header {
     .slick-slider {
         padding: 0px !important;
     }
-    .slick-slide{
+    .slick-slide {
         padding: 0px 12px;
     }
     .container {
@@ -398,8 +398,7 @@ header {
 .section-6 {
     margin-top: 70px;
     .slick-slide {
-        width: 324px !important;
-        margin: 0px 12px;
+        padding: 0px 12px;
     }
     .slick-slider {
         padding: 0px !important;
@@ -410,29 +409,17 @@ header {
     }
     p {
         @include paragraph;
+        margin-bottom: 34px;
     }
-    .sec6-box {
-        margin-top: 34px;
-    }
-    .sec6-bg1 {
-        background: url(../images/sec6-1.png);
-        @include box-w;
-    }
-    .sec6-bg2 {
-        background: url(../images/sec6-2.png);
-        @include box-w;
-    }
-    .sec6-bg3 {
-        background: url(../images/sec6-3.png);
-        @include box-w;
-    }
-    .sec6-bg4 {
-        background: url(../images/sec6-4.png);
-        @include box-w;
-    }
+    
+}
+.card2{
     h3 {
         margin-bottom: 6px;
         margin-top: 12px;
+    }
+    .sec6-bg1 {
+        @include box-w;
     }
 }
 
@@ -446,8 +433,7 @@ header {
     padding-bottom: 54px;
     margin-top: 72px;
     .slick-slide {
-        width: 324px !important;
-        margin: 0px 12px;
+        padding: 0px 12px;
     }
     .slick-slider {
         padding: 0px !important;
@@ -464,22 +450,7 @@ header {
         margin-top: 12px;
     }
 }
-.sec7-bg1 {
-    background: url(../images/sec7-1.png);
-    @include box-w;
-}
-.sec7-bg2 {
-    background: url(../images/sec7-2.png);
-    @include box-w;
-}
-.sec7-bg3 {
-    background: url(../images/sec7-3.png);
-    @include box-w;
-}
-.sec7-bg4 {
-    background: url(../images/sec7-4.png);
-    @include box-w;
-}
+
 .section-8 {
     margin-top: 78px;
 
@@ -1515,27 +1486,26 @@ a:hover {
             display: none;
         }
         .slick-dots {
-            li{
+            li {
                 margin: 0px !important;
-                button{
-                    &::hover{
+                button {
+                    &::hover {
                         color: $main-color6 !important;
                     }
-                    &::before{
-                        color: #C4C4C4;
+                    &::before {
+                        color: #c4c4c4;
                         font-size: 10px;
                         opacity: 1;
                     }
                 }
             }
-            .slick-active{
-                button{
-                    &::before{
-                        color: $main-color6 ;
+            .slick-active {
+                button {
+                    &::before {
+                        color: $main-color6;
                         font-size: 10px;
                     }
                 }
-               
             }
         }
         .slick-prev,
@@ -1562,28 +1532,28 @@ a:hover {
     // section 2 started
     .section-2 {
         margin-top: 65px;
-        .m-b31{
+        .m-b31 {
             flex-wrap: nowrap;
             overflow-x: scroll;
             margin-bottom: 0px;
-            &::-webkit-scrollbar-button{
+            &::-webkit-scrollbar-button {
                 scrollbar-width: none;
                 scrollbar-color: red green;
             }
         }
-        h1{
+        h1 {
             font-size: 20px;
             line-height: 28px;
         }
-        h6{
+        h6 {
             font-size: $f-13;
             font-weight: normal;
         }
-        .cat-box{
+        .cat-box {
             width: 100%;
             height: fit-content;
             padding: 15px 0px;
-            img{
+            img {
                 width: 90%;
             }
         }
@@ -1592,18 +1562,19 @@ a:hover {
 
     // section 3 started
     .section-3 {
-        .slick-prev, .slick-next {
+        .slick-prev,
+        .slick-next {
             top: 175px !important;
         }
-        .container{
+        .container {
             .bg-sec3 {
                 width: 100%;
                 height: 390px;
             }
-            .sec3-box{
+            .sec3-box {
                 width: 90%;
                 padding-top: 10px;
-                h2{
+                h2 {
                     font-size: $f-24;
                     line-height: 30px;
                     margin-bottom: 5px;
@@ -1612,32 +1583,33 @@ a:hover {
         }
     }
     // section 4
-    .section-4{
-        .slick-prev, .slick-next {
+    .section-4 {
+        margin-top: 35px;
+        .slick-prev,
+        .slick-next {
             width: 20px !important;
             height: 20px !important;
             top: 60px !important;
             justify-content: center;
-            i{
+            i {
                 margin-left: 0px !important;
                 font-size: 11px !important;
             }
         }
-        .container{
-
+        .container {
             p {
                 font-size: 12px;
                 line-height: 14px;
             }
-            .sec4-box{
-                img{
+            .sec4-box {
+                img {
                     width: 100%;
                     height: auto;
                 }
-                span{
+                span {
                     font-size: 11px;
                 }
-                strike{
+                strike {
                     font-size: 11px;
                 }
                 h3 {
@@ -1651,33 +1623,102 @@ a:hover {
     // section 4 ended
 
     // section 5
-    .section-5{
+    .section-5 {
         padding: 0px 0px !important;
-        .container{
+        .container {
             padding: 0px !important;
-            .sec5-bg{
-                background: url(../images/sec-5-main-sm.png);
+            .sec5-bg {
+                background: url(../images/sec-5-main-sm.png)no-repeat;
+                background-size: cover;
+
                 height: 187px;
                 padding: 23px 11px 44px 187px;
-                h1{
+                h1 {
                     margin-bottom: 0px;
                     font-size: 16px;
-line-height: 136%;
+                    line-height: 136%;
                 }
-                span{
+                span {
                     font-size: 10px;
                 }
-                p{
-                   display: none;
+                p {
+                    display: none;
                 }
-                button{
+                button {
                     width: 66px;
-height: 26px;
-margin-top: 11px;
-font-size: 12px;
-line-height: 14px;
+                    height: 26px;
+                    margin-top: 11px;
+                    font-size: 12px;
+                    line-height: 14px;
                 }
             }
+        }
+    }
+    // section 6
+    .section-6 {
+        margin-top: 60px;
+        .slick-prev, .slick-next {
+            width: 20px !important;
+            height: 20px !important;
+            top: 60px !important;
+            justify-content: center;
+            i {
+                margin-left: 0px !important;
+                font-size: 11px !important;
+            }
+          }
+          p{
+            margin-bottom: 20px;
+          }
+        h1{
+            font-size: 18px;
+            line-height: 22px;
+        }
+        h2{
+            font-size: 13px
+        }      
+    }
+    .card2{
+        h3 {
+            font-size: 11px;
+            margin-bottom: -5px;
+            margin-top: 5px;
+        }
+        span {
+            font-size: 11px;
+        }
+        .sec6-bg1 {
+            width: 100%;
+            height: fit-content;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    // section 7
+    .section-7{
+        margin-top: 40px;
+        padding-top: 40px;
+padding-bottom: 40px;
+        .slick-prev, .slick-next {
+            width: 20px !important;
+            height: 20px !important;
+            top: 60px !important;
+            justify-content: center;
+            i {
+                margin-left: 0px !important;
+                font-size: 11px !important;
+            }
+          }
+        h1{
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            margin-bottom: 24px;
         }
     }
 }
