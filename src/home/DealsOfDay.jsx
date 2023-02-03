@@ -1,5 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
+import pData from "../global/P-data";
+import Card1 from "../global/Card1";
+import img1 from "../images/chevron-right.svg"
 
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
@@ -36,85 +39,63 @@ function DealsOfDay() {
         autoplaySpeed: 3000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                rows: 2,
+                slidesToScroll: 1
+              }
+            }
+          ]
     };
     return (
         <>
             <section className="section-9 container-fluid">
                 <div className="container">
                     <h1>Deals Of The Day</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                     <div className="row">
                         <Slider {...settings}>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-1 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-2 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-3 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-4 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-2 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
-                            <div>
-                                <div className="sec9-box">
-                                    <div className="bg-sec9-2 p-16">
-                                        <div className="discount-tag text-center jost font-14">
-                                            33% off
-                                        </div>
-                                    </div>
-                                    <h3 className="font-16 jost color-22222 fw-normal">Scott King Size Bed with Drawer Storage</h3>
-                                    <span className="jost font-16 fw-600 color-22222">₹58,822</span> <strike className="font-14 color-767676">₹69,997</strike>
-                                </div>
-                            </div>
+                            {pData.map(function pCard(val) {
+                                return (
+                                    <>
+                                        <Card1
+                                            key={val.id}
+                                            imglink={val.imglink}
+                                            pName={val.pName}
+                                            dPrice={val.dPrice}
+                                            sPrice={val.sPrice}
+                                        />
+                                    </>
+                                )
+                            })}
                         </Slider>
-
+                        <div className="d-flex justify-content-center">
+                            <button className="view-all-btn">
+                            View More <img src={img1} />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>

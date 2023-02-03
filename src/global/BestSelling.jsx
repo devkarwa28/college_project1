@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Card1 from "./Card1";
 import pData from "./P-data";
+import img1 from "../images/chevron-right.svg"
 
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
@@ -61,6 +62,7 @@ function BestSelling() {
               breakpoint: 480,
               settings: {
                 slidesToShow: 2,
+                rows: 2,
                 slidesToScroll: 1
               }
             }
@@ -90,6 +92,11 @@ function BestSelling() {
                                 )
                             })}
                         </Slider>
+                        <div className="d-flex justify-content-center">
+                            <button className="view-all-btn">
+                            View More <img src={img1} />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>

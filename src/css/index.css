@@ -478,7 +478,8 @@ header .container2 .account i:hover {
   margin-top: 12px;
   margin-bottom: 8px;
 }
-.section-4 .container .sec4-box img {
+
+.card1 img {
   width: 324px;
   height: 232px;
 }
@@ -504,8 +505,7 @@ header .container2 .account i:hover {
   width: 390px;
 }
 .section-5 .sec5-bg button {
-  width: 139px;
-  height: 48px;
+  padding: 17px 24px;
   background-color: #EB7700;
   border: 0px;
   color: white;
@@ -616,8 +616,7 @@ header .container2 .account i:hover {
   padding: 26px 0px 0px 32px;
 }
 .section-8 button {
-  width: 139px;
-  height: 48px;
+  padding: 17px 24px;
   background-color: #EB7700;
   border: 0px;
   color: white;
@@ -649,8 +648,7 @@ header .container2 .account i:hover {
   margin-top: 56px;
 }
 .section-9 .slick-slide {
-  width: 324px !important;
-  margin: 0px 12px;
+  padding: 0px 12px;
 }
 .section-9 .slick-slider {
   padding: 0px !important;
@@ -716,8 +714,7 @@ header .container2 .account i:hover {
   margin-top: 72px;
 }
 .section-10 .slick-slide {
-  width: 440px !important;
-  margin: 0px 12px;
+  padding: 0px 12px;
 }
 .section-10 .slick-next,
 .section-10 .slick-prev {
@@ -767,8 +764,7 @@ header .container2 .account i:hover {
   margin-top: 0px;
 }
 .section-10 .btn-1 {
-  width: 153px;
-  height: 40px;
+  padding: 13px 16px;
   border: 1px solid #E95B1B;
   background: transparent;
   color: #E95B1B;
@@ -1749,9 +1745,31 @@ a:hover {
   line-height: 40px;
 }
 
+.view-all-btn {
+  display: none;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .sm-none {
     display: none !important;
+  }
+  .view-all-btn {
+    display: block;
+    background: transparent;
+    padding: 10px 42px;
+    border: 1px solid #767676;
+    border-radius: 4px;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #484848;
+    margin-top: 16px;
+  }
+  .view-all-btn img {
+    margin-left: 10px;
   }
   header {
     margin-top: 0px;
@@ -1771,6 +1789,27 @@ a:hover {
     margin-right: 12px;
     width: 24px;
     height: 24px;
+  }
+  .card2 {
+    margin-bottom: 24px;
+  }
+  .card1 {
+    margin-bottom: 24px;
+  }
+  .card1 img {
+    width: 100%;
+    height: auto;
+  }
+  .card1 span {
+    font-size: 11px;
+  }
+  .card1 strike {
+    font-size: 11px;
+  }
+  .card1 h3 {
+    font-size: 11px;
+    margin-top: 8px;
+    margin-bottom: 0px !important;
   }
   .section-1 {
     padding: 0px !important;
@@ -1881,21 +1920,6 @@ a:hover {
     font-size: 12px;
     line-height: 14px;
   }
-  .section-4 .container .sec4-box img {
-    width: 100%;
-    height: auto;
-  }
-  .section-4 .container .sec4-box span {
-    font-size: 11px;
-  }
-  .section-4 .container .sec4-box strike {
-    font-size: 11px;
-  }
-  .section-4 .container .sec4-box h3 {
-    font-size: 11px;
-    margin-top: 8px;
-    margin-bottom: 0px;
-  }
   .section-5 {
     padding: 0px 0px !important;
   }
@@ -1920,8 +1944,7 @@ a:hover {
     display: none;
   }
   .section-5 .container .sec5-bg button {
-    width: 66px;
-    height: 26px;
+    padding: 6px 8px;
     margin-top: 11px;
     font-size: 12px;
     line-height: 14px;
@@ -1929,29 +1952,27 @@ a:hover {
   .section-6 {
     margin-top: 60px;
   }
-  .section-6 .slick-prev, .section-6 .slick-next {
-    width: 20px !important;
-    height: 20px !important;
-    top: 60px !important;
-    justify-content: center;
-  }
-  .section-6 .slick-prev i, .section-6 .slick-next i {
-    margin-left: 0px !important;
-    font-size: 11px !important;
+  .section-6 .slick-prev,
+.section-6 .slick-next {
+    display: none !important;
   }
   .section-6 p {
     margin-bottom: 20px;
+    text-align: center;
   }
   .section-6 h1 {
     font-size: 18px;
     line-height: 22px;
+    text-align: center;
   }
   .section-6 h2 {
     font-size: 13px;
+    text-align: center;
+    margin-bottom: 24px;
   }
   .card2 h3 {
     font-size: 11px;
-    margin-bottom: -5px;
+    margin-bottom: -1px;
     margin-top: 5px;
   }
   .card2 span {
@@ -1971,13 +1992,15 @@ a:hover {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .section-7 .slick-prev, .section-7 .slick-next {
+  .section-7 .slick-prev,
+.section-7 .slick-next {
     width: 20px !important;
     height: 20px !important;
     top: 60px !important;
     justify-content: center;
   }
-  .section-7 .slick-prev i, .section-7 .slick-next i {
+  .section-7 .slick-prev i,
+.section-7 .slick-next i {
     margin-left: 0px !important;
     font-size: 11px !important;
   }
@@ -1989,5 +2012,96 @@ a:hover {
   .section-7 p {
     text-align: center;
     margin-bottom: 24px;
+  }
+  .section-8 {
+    margin-top: 60px;
+  }
+  .section-8 .sec8-box1,
+.section-8 .sec8-box2 {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-size: 100%;
+    padding: 12.12px 0px 111px 16.05px;
+    margin: 8.16px 0px;
+  }
+  .section-8 h1 {
+    font-size: 20.0585px;
+    line-height: 29px;
+    margin-bottom: 4.51px;
+  }
+  .section-8 h2 {
+    font-size: 12.0351px;
+    line-height: 17px;
+    padding: 2.01px 8.02px;
+  }
+  .section-8 button {
+    padding: 8.52485px 12.0351px;
+    font-size: 8.02339px;
+    line-height: 7px;
+    letter-spacing: 0.01em;
+    margin-top: 17px;
+  }
+  .section-9 .slick-prev,
+.section-9 .slick-next {
+    display: none !important;
+  }
+  .section-10 .bg-sec10-1,
+.section-10 .bg-sec10-2,
+.section-10 .bg-sec10-3 {
+    height: 142px;
+    width: 100%;
+    background-size: 100%;
+  }
+  .section-10 h2 {
+    margin-bottom: 23px;
+  }
+  .section-10 h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .section-10 p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 18px;
+  }
+  .section-10 .btn-1 {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 8px;
+    margin-bottom: 7px;
+  }
+  .section-11 {
+    margin-top: 50px;
+  }
+  .section-11 .sec11-box {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 10px 5px;
+  }
+  .section-11 .sec11-box img {
+    width: 30px;
+    height: 30px;
+  }
+  .section-11 .sec11-box h1 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto 0px;
+    margin-left: 8px;
+  }
+  .section-11 .sec11-box h2 {
+    display: none;
+  }
+  .section-11 .sec11-box .sec11-box-content {
+    display: grid;
+    justify-content: center;
+    place-content: center;
   }
 }/*# sourceMappingURL=index.css.map */
