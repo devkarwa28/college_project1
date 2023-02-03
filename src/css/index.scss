@@ -598,6 +598,9 @@ header {
     margin-top: 82px;
     background: #f4f9fc;
     padding: 48px 0px 56px 0px;
+    .slick-slide{
+        padding: 0px 12px;
+    }
     h1 {
         @include heading-center();
         margin-bottom: 6px;
@@ -1841,6 +1844,21 @@ padding: 10px 5px;
                 justify-content: center;
                 place-content: center;
             }
+        }
+    }
+    .section-12{
+        padding-left:0px !important;
+        padding-right: 0px !important;
+        button {
+            margin-top: 36px;
+        }
+    }
+    .section-13{
+        display: none;
+    }
+    .section-14{
+        h1{
+              font-size: 16.989px
         }
     }
 }

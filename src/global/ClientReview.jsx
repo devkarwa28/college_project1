@@ -1,12 +1,71 @@
 import React from "react";
-import img1 from '../images/sec12-1.png';
-import img2 from '../images/sec12-2.png';
-import img3 from '../images/sec12-3.png';
-import img4 from '../images/sec12-4.png';
+import Slider from "react-slick";
+import Client_Card from "./Client-Card";
+import { review_detail } from "./P-data";
 
-
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 130 }}
+            onClick={onClick}
+        >
+            <i class="fa-solid fa-angle-left text-center font-16 ms-2"></i>
+        </div>
+    );
+}
+function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 130, right: 0 }}
+            onClick={onClick}
+        >
+            <i class="fa-solid fa-angle-right text-center font-16 ms-2"></i>
+        </div>
+    );
+}
 
 function ClientReview(){
+    const settings = {
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        cssEase: "linear",
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
+    };
     return(
         <>
             <section className="section-12 container-fluid">
@@ -14,86 +73,22 @@ function ClientReview(){
             <h1>What Our Happy Client Say</h1>
             <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida</h2>
             <div className="row">
-                <div className="col-lg-3">
-                    <img src={img1} alt=""/>
-                    <h3 className="jost fw-600 color-22222">Scott King Size Bed with Storage</h3>
-                    <p className="font-15 jost color-767676">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui. 
-                    </p>
-                    <div className="customer-name d-flex justify-content-between">
-                        <div>
-                            <h4 className="jost font-16 fw-600 color-22222 mb-0">Raj Kumar Rao</h4>
-                            <h5 className="jost font-14 color-767676 fw-normal">
-                                Bengaluru, 560037
-                            </h5>
-                        </div>
-
-                        <div className="rating font-14 fw-500 jost">
-                            4.5 <i className="fa-solid fa-star"></i>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="col-lg-3">
-                    <img src={img2} alt=""/>
-                    <h3 className="jost fw-600 color-22222">Scott King Size Bed with Storage</h3>
-                    <p className="font-15 jost color-767676">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui. 
-                    </p>
-                    <div className="customer-name d-flex justify-content-between">
-                        <div>
-                            <h4 className="jost font-16 fw-600 color-22222 mb-0">Raj Kumar Rao</h4>
-                            <h5 className="jost font-14 color-767676 fw-normal">
-                                Bengaluru, 560037
-                            </h5>
-                        </div>
-
-                        <div className="rating font-14 fw-500 jost">
-                            4.5 <i className="fa-solid fa-star"></i>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="col-lg-3">
-                    <img src={img3} alt=""/>
-                    <h3 className="jost fw-600 color-22222">Scott King Size Bed with Storage</h3>
-                    <p className="font-15 jost color-767676">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui. 
-                    </p>
-                    <div className="customer-name d-flex justify-content-between">
-                        <div>
-                            <h4 className="jost font-16 fw-600 color-22222 mb-0">Raj Kumar Rao</h4>
-                            <h5 className="jost font-14 color-767676 fw-normal">
-                                Bengaluru, 560037
-                            </h5>
-                        </div>
-
-                        <div className="rating font-14 fw-500 jost">
-                            4.5 <i className="fa-solid fa-star"></i>
-                        </div>
-
-                    </div>
-                </div>
-                <div className="col-lg-3">
-                    <img src={img4} alt=""/>
-                    <h3 className="jost fw-600 color-22222">Scott King Size Bed with Storage</h3>
-                    <p className="font-15 jost color-767676">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui. 
-                    </p>
-                    <div className="customer-name d-flex justify-content-between">
-                        <div>
-                            <h4 className="jost font-16 fw-600 color-22222 mb-0">Raj Kumar Rao</h4>
-                            <h5 className="jost font-14 color-767676 fw-normal">
-                                Bengaluru, 560037
-                            </h5>
-                        </div>
-
-                        <div className="rating font-14 fw-500 jost">
-                            4.5 <i className="fa-solid fa-star"></i>
-                        </div>
-
-                    </div>
-                </div>
+            <Slider {...settings}>
+            {review_detail.map(function review_callback(val){
+                return(
+                    <>
+                        <Client_Card
+                            key={val.id}
+                            imglink={val.imglink}
+                            productName={val.productName}
+                            review={val.review}
+                            customerName={val.customerName}
+                            customerLocation={val.customerLocation}
+                        />
+                    </>
+                )
+            })}
+            </Slider>
             </div>
             <div className="d-flex justify-content-center">
                 <button>

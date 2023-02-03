@@ -107,5 +107,80 @@ const Card2_detail = [
         startingPrice : "30,000"
     }
 ]
+const review_detail = [
+    {
+        id : 0,
+        imglink: "images/sec12-1.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 1,
+        imglink: "images/sec12-2.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 2,
+        imglink: "images/sec12-3.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 3,
+        imglink: "images/sec12-4.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 4,
+        imglink: "images/sec12-1.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 5,
+        imglink: "images/sec12-2.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 6,
+        imglink: "images/sec12-3.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 7,
+        imglink: "images/sec12-4.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    },
+    {
+        id : 8,
+        imglink: "images/sec12-2.png",
+        productName: "Scott King Size Bed with Storage",
+        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
+        customerName: "Dev Karwa",
+        customerLocation: "Jodhpur,Rajasthan"
+    }
+
+]
 export default pData;
-export { Card2_detail };
+export { Card2_detail , review_detail };
