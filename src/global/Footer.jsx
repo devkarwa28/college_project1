@@ -5,7 +5,7 @@ import img1 from '../images/logo.svg';
 function Footer(){
     return(
         <>
-            <footer className="container-fluid">
+            <footer className="">
         <div className="footer-1">
             <div className="container">
                 <div className="row">
@@ -15,9 +15,10 @@ function Footer(){
                             <h1 className="jost font-16 color-767676"> 
                                 Buy all solid sheesham wood furniture online in Bangalore at best price only on Jodhpuri furniture store.
                             </h1>
-                            <a href="" className="jost font-16 color-767676"> info@jodhpurifurniture.com</a>
-                            <br/>
-                            <a href="" className="jost font-16 color-767676">+91 99299 46846</a>
+                            <div>
+                            <a href="" className="jost font-16 color-767676"> info@jodhpurifurniture.com</a> |
+                            <a href="" className="jost font-16 color-767676"> +91 99299 46846</a>
+                            </div>
                             <div className="social-media">
                                 <a href=""><i className="fa-brands fa-square-facebook"></i></a>
                                 <a href=""><i className="fa-brands fa-twitter"></i></a>
@@ -27,7 +28,7 @@ function Footer(){
 
                         </div>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="sm-none col-6 col-lg-2">
                         <div className="footer1-2">
                             <h2 className="font-20 fw-600 jost color-22222">Top Categories</h2>
                             <ul className="p-0">
@@ -41,7 +42,7 @@ function Footer(){
                         </div>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-6 col-lg-3">
                         <div className="footer1-3">
                             <h2 className="font-20 fw-600 jost color-22222">Customer Services</h2>
                             <ul className="p-0">
@@ -57,7 +58,7 @@ function Footer(){
 
                         </div>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-6 col-lg-3">
                         <div className="footer1-4">
                             <h2 className="font-20 fw-600 jost color-22222">Our Company</h2>
                             <ul className="p-0">

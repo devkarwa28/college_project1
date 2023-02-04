@@ -2080,7 +2080,7 @@ a:hover {
     margin-top: 50px;
   }
   .section-11 .sec11-box {
-    border: 1px solid #E1E1E1;
+    border: 1px solid #e1e1e1;
     border-radius: 5px;
     margin-bottom: 8px;
     padding: 10px 5px;
@@ -2119,5 +2119,94 @@ a:hover {
   }
   .section-14 h1 {
     font-size: 16.989px;
+  }
+  .section-15 {
+    padding-top: 28px;
+    padding-bottom: 35px;
+  }
+  .section-15 h1 {
+    line-height: 26px;
+    font-size: 18px;
+  }
+  .section-15 .sec15-box {
+    padding-left: 0px;
+  }
+  .section-15 .sec15-box h3 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .section-15 .sec15-box h2 {
+    font-size: 12px;
+  }
+  .section-15 .sec15-box2 {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .section-15 .sec15-box2 h4 {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .section-15 .sec15-box2 .floating-input,
+.section-15 .sec15-box2 .floating-select {
+    width: 100%;
+  }
+  footer .footer-1-1 {
+    padding-left: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEBEB;
+  }
+  footer .footer-1-1 img {
+    margin-bottom: 9px;
+  }
+  footer .footer-1-1 a {
+    font-size: 14px;
+    line-height: 33px;
+  }
+  footer .footer-1-1 h1 {
+    font-size: 13px;
+    margin-bottom: 12px;
+    line-height: 20px;
+    width: 100%;
+  }
+  footer .footer1-2 {
+    display: none;
+  }
+  footer .footer1-3 {
+    padding-left: 0px;
+  }
+  footer .footer1-3 h2 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  footer .footer1-3 li a {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  footer .footer1-4 {
+    padding-left: 0px;
+  }
+  footer .footer1-4 h2 {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  footer .footer1-4 li a {
+    font-size: 13px;
+    line-height: 28px;
+  }
+  footer .loctaion {
+    padding-left: 0px;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+  footer .loctaion .location-box {
+    margin-bottom: 18px;
+    margin-right: 0px;
+  }
+  footer .loctaion p {
+    font-size: 13px;
+    width: 100%;
+    line-height: 24px;
   }
 }/*# sourceMappingURL=index.css.map */
