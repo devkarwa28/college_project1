@@ -27,7 +27,7 @@ function Header(){
                 <div  className="account">
                     <Link><img src={img4}/></Link>
                     <Link><img src={img5} /></Link>
-                    <Link><img src={img6} className="me-0" /></Link>
+                    <Link to='/billing'><img src={img6} className="me-0" /></Link>
                 </div>
 
             </div>
