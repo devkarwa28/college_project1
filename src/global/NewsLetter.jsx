@@ -1,4 +1,5 @@
 import React from "react";
+import leftarrow from '../images/arrow-left2.svg'
 
 function NewsLetter(){
     return(
@@ -23,6 +24,9 @@ function NewsLetter(){
                                     <input className="floating-input" type="text" placeholder=" "/>
                                     <span className="highlight"></span>
                                     <label className="color-767676 font-16">Enter your email address</label>
+                                    <button className="news-letter-btn" type="submit">
+                                        <img src={leftarrow}/>
+                                    </button>
                                   </div>
                             </form>
                             <h4 className="font-13 jost fw-500 color-767676">

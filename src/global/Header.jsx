@@ -198,6 +198,17 @@ function Header() {
                                         <li><a class="" href="#">Prayer Units</a></li>
                                     </ul>
                                 </div>
+                                <div className="canvas-box">
+                                <Link>About Us</Link>
+                                <Link>Custom Furniture</Link>
+                                <Link>Coupon Partners</Link>
+                                <Link>Contact Us</Link>
+                                <Link>Furniture Exporters</Link>
+                                <Link>Terms Of Use</Link>
+                                <button>
+                                Log Out
+                                </button>
+                                </div>
                                 
                             </div>
                         </div>
