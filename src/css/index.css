@@ -255,17 +255,54 @@ header .container2 .account i:hover {
 }
 
 .offcanvas-header {
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.img-tranform {
+  transition: 1s;
+  transform: rotate(-180deg);
+}
+
+.active-dropdown-btn {
+  color: #E95B1B !important;
 }
 
 .offcanvas-body {
   padding: 0px !important;
 }
+.offcanvas-body .dropdown img {
+  transition: 1s;
+}
+.offcanvas-body .dropdown ul {
+  transition: 1s;
+  display: none;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+.offcanvas-body .dropdown ul li {
+  list-style: none;
+}
+.offcanvas-body .dropdown ul li a {
+  color: rgb(118, 118, 118);
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 230%;
+}
+.offcanvas-body .dropdown ul li a:hover {
+  color: #E95B1B;
+}
+.offcanvas-body .active-dropdown {
+  display: block !important;
+}
 .offcanvas-body .dropdown-toggle {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   padding: 14px 16px;
   border: 0px;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
   background-color: transparent;
   font-family: "Jost", sans-serif;
   font-style: normal;
@@ -274,6 +311,9 @@ header .container2 .account i:hover {
   line-height: 23px;
   color: #222222;
   text-align: start;
+}
+.offcanvas-body .dropdown-toggle::after {
+  display: none;
 }
 
 .m-b31 {
@@ -2197,7 +2237,7 @@ a:hover {
     padding-left: 0px;
     text-align: center;
     padding-bottom: 30px;
-    border-bottom: 1px solid #EBEBEB;
+    border-bottom: 1px solid #ebebeb;
     margin-bottom: 32px;
   }
   footer .footer-1-1 img {

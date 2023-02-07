@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import img1 from '../images/logo.svg';
 import img2 from '../images/mega-img.png';
@@ -8,9 +8,13 @@ import img5 from '../images/heart.svg';
 import img6 from '../images/cart.svg';
 import menu from '../images/menu.svg'
 import backimg from '../images/arrow-left.svg'
+import downarrow from '../images/chevron-down.svg'
 import { Offcanvas } from "bootstrap";
 function Header() {
-
+// const [none , block] = useState('d-none')
+// const d_none = () =>{
+//     block('d-block')
+// }
     return (
         <>
             <header>
@@ -40,16 +44,161 @@ function Header() {
 
                             </div>
                             <div class="offcanvas-body">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                                    Sofa
+                                <div class="dropdown sofa">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Sofa <div><img src={downarrow}/></div>
                                     </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <ul >
+                                        <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
                                     </ul>
                                 </div>
+                                <div class="dropdown living">
+                                    <button class="dropdown-toggle " type="button"  >
+                                    Living<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul>
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown mirror">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Mirrors<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown living-st">
+                                    <button class="dropdown-toggle " type="button"  >
+                                    Living Storage<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul>
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown tables">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Tables<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown chair">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Chairs<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown bedroom">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Bedroom<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown dinning">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Dining<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown storage">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Storage<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown study">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    Study<div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown sale">
+                                    <button class="dropdown-toggle" type="button"  >
+                                    SALE <div><img src={downarrow}/></div>
+                                    </button>
+                                    <ul className= "" >
+                                    <li><a class="" href="#">Tv Units</a></li>
+                                        <li><a class="" href="#">Bookshelves</a></li>
+                                        <li><a class="" href="#">Cabinets and Sideboard</a></li>
+                                        <li><a class="" href="#">Chest Of Drawers</a></li>
+                                        <li><a class="" href="#">Shoe Racks</a></li>
+                                        <li><a class="" href="#">Display Unit</a></li>
+                                        <li><a class="" href="#">Prayer Units</a></li>
+                                    </ul>
+                                </div>
+                                
                             </div>
                         </div>
                         {/* off Canvas Ended */}
