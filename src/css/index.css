@@ -228,6 +228,54 @@ header .container2 .account i:hover {
   color: #E95B1B;
 }
 
+.menu-btn {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 16px;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: 0px;
+  margin-right: 16px;
+}
+
+.login-sm {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #484848;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.offcanvas-body {
+  padding: 0px !important;
+}
+.offcanvas-body .dropdown-toggle {
+  width: 100%;
+  padding: 14px 16px;
+  border: 0px;
+  border-bottom: 1px solid #EBEBEB;
+  background-color: transparent;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #222222;
+  text-align: start;
+}
+
 .m-b31 {
   margin-bottom: 31px;
 }
@@ -1903,15 +1951,7 @@ a:hover {
   }
   .section-4 .slick-prev,
 .section-4 .slick-next {
-    width: 20px !important;
-    height: 20px !important;
-    top: 60px !important;
-    justify-content: center;
-  }
-  .section-4 .slick-prev i,
-.section-4 .slick-next i {
-    margin-left: 0px !important;
-    font-size: 11px !important;
+    display: none !important;
   }
   .section-4 .container p {
     font-size: 12px;
@@ -1991,15 +2031,7 @@ a:hover {
   }
   .section-7 .slick-prev,
 .section-7 .slick-next {
-    width: 20px !important;
-    height: 20px !important;
-    top: 60px !important;
-    justify-content: center;
-  }
-  .section-7 .slick-prev i,
-.section-7 .slick-next i {
-    margin-left: 0px !important;
-    font-size: 11px !important;
+    display: none !important;
   }
   .section-7 h1 {
     font-size: 20px;
