@@ -2123,3 +2123,39 @@ a:hover {
         }
     }
 }
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+    .md-none{
+        display: none !important;
+    }
+    .header-1{
+        h1{
+            font-size: 11px;
+            margin-left: 0px;
+        }
+        .contact{
+            margin-right: 0px;
+            a{
+                font-size: 11px;
+            }
+        }
+    }
+    header{
+        .container2{
+            .header-main{
+                padding-bottom: 10px;
+            }
+            .logo{
+                height: 60px;
+            }
+            .search{
+                margin-left: 25px;
+                input{
+                    width: 230px;
+                }
+            }
+            .store{
+                margin-left: 25px;
+            }
+        }
+    }
+}

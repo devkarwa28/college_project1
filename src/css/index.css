@@ -175,11 +175,6 @@ header .container2 .search input::-moz-placeholder {
   font-family: "Jost", sans-serif;
   font-size: 14px;
 }
-header .container2 .search input:-ms-input-placeholder {
-  color: #767676;
-  font-family: "Jost", sans-serif;
-  font-size: 14px;
-}
 header .container2 .search input::placeholder {
   color: #767676;
   font-family: "Jost", sans-serif;
@@ -387,7 +382,6 @@ header .container2 .account i:hover {
 }
 .section-1 .bg-background2 h2 {
   background: rgba(255, 255, 255, 0.5);
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px 16px;
@@ -535,7 +529,6 @@ header .container2 .account i:hover {
   margin: auto;
   padding-top: 18px;
   margin-top: -32px;
-  position: -webkit-sticky;
   position: sticky;
 }
 .section-3 .container .sec3-box span {
@@ -755,7 +748,6 @@ header .container2 .account i:hover {
 .section-8 h2 {
   color: #484848;
   background: rgba(255, 255, 255, 0.5);
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px 16px;
@@ -1019,7 +1011,6 @@ header .container2 .account i:hover {
   font-style: italic;
   font-size: 21.9886px;
   margin: auto 0px;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-left: -10px;
@@ -1068,11 +1059,6 @@ header .container2 .account i:hover {
   transition: 0.2s ease all;
 }
 .section-15 .sec15-box2 .floating-input:not(:-moz-placeholder-shown) ~ label {
-  top: -22px;
-  font-size: 14px;
-  color: #E95B1B;
-}
-.section-15 .sec15-box2 .floating-input:not(:-ms-input-placeholder) ~ label {
   top: -22px;
   font-size: 14px;
   color: #E95B1B;
@@ -1285,14 +1271,12 @@ footer .loctaion i {
   background: transparent;
 }
 .listing-section2 .sorting-bar h6 {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
   margin-left: 12px;
 }
 .listing-section2 .sorting-bar h2 {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1420,7 +1404,6 @@ footer .loctaion i {
   place-items: center;
 }
 .header-2 .progress-bar-cart h2 {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1436,7 +1419,6 @@ footer .loctaion i {
   margin-top: 31px;
 }
 .Cart h2 {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1451,9 +1433,6 @@ footer .loctaion i {
   border-right: 0px;
 }
 .Cart .pincode input::-moz-placeholder {
-  font-size: 14px;
-}
-.Cart .pincode input:-ms-input-placeholder {
   font-size: 14px;
 }
 .Cart .pincode input::placeholder {
@@ -1504,7 +1483,6 @@ footer .loctaion i {
   margin-left: 23px;
 }
 .cart-item .cart-item-content .savings div {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1534,7 +1512,6 @@ a:hover {
 
 /*--------------------------*/
 .qty {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1652,7 +1629,6 @@ a:hover {
   margin-top: 8px;
 }
 .disclaimer2 h1 {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin: auto 0px;
@@ -1958,7 +1934,7 @@ a:hover {
     font-size: 10px;
   }
   .section-1 .slick-prev,
-.section-1 .slick-next {
+  .section-1 .slick-next {
     display: none !important;
   }
   .section-1 .bg-background1 {
@@ -1997,7 +1973,6 @@ a:hover {
   }
   .section-2 .cat-box {
     width: 100%;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     padding: 15px 0px;
@@ -2011,7 +1986,7 @@ a:hover {
     padding-right: 0px !important;
   }
   .section-3 .slick-prev,
-.section-3 .slick-next {
+  .section-3 .slick-next {
     top: 175px !important;
   }
   .section-3 .container .bg-sec3 {
@@ -2021,7 +1996,6 @@ a:hover {
   .section-3 .container .sec3-box {
     width: 90%;
     padding-top: 10px;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     padding: 12.78px 0px 6px 0px;
@@ -2040,7 +2014,7 @@ a:hover {
     padding-right: 0px !important;
   }
   .section-4 .slick-prev,
-.section-4 .slick-next {
+  .section-4 .slick-next {
     display: none !important;
   }
   .section-4 .container p {
@@ -2083,7 +2057,7 @@ a:hover {
     padding-right: 0px !important;
   }
   .section-6 .slick-prev,
-.section-6 .slick-next {
+  .section-6 .slick-next {
     display: none !important;
   }
   .section-6 p {
@@ -2110,7 +2084,6 @@ a:hover {
   }
   .card2 .sec6-bg1 {
     width: 100%;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -2123,7 +2096,7 @@ a:hover {
     padding-bottom: 40px;
   }
   .section-7 .slick-prev,
-.section-7 .slick-next {
+  .section-7 .slick-next {
     display: none !important;
   }
   .section-7 h1 {
@@ -2141,9 +2114,8 @@ a:hover {
     padding-right: 0px !important;
   }
   .section-8 .sec8-box1,
-.section-8 .sec8-box2 {
+  .section-8 .sec8-box2 {
     width: 100%;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     background-size: 100%;
@@ -2173,15 +2145,15 @@ a:hover {
     padding-right: 0px !important;
   }
   .section-9 .slick-prev,
-.section-9 .slick-next {
+  .section-9 .slick-next {
     display: none !important;
   }
   .section-10 {
     margin-top: 40px;
   }
   .section-10 .bg-sec10-1,
-.section-10 .bg-sec10-2,
-.section-10 .bg-sec10-3 {
+  .section-10 .bg-sec10-2,
+  .section-10 .bg-sec10-3 {
     height: 142px;
     width: 100%;
     background-size: 100%;
@@ -2222,7 +2194,6 @@ a:hover {
     font-weight: 400;
     font-size: 11px;
     line-height: 20px;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin: auto 0px;
@@ -2277,7 +2248,6 @@ a:hover {
     font-size: 16.989px;
   }
   .section-14 .star {
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -2311,7 +2281,7 @@ a:hover {
     line-height: 16px;
   }
   .section-15 .sec15-box2 .floating-input,
-.section-15 .sec15-box2 .floating-select {
+  .section-15 .sec15-box2 .floating-select {
     width: 100%;
   }
   footer {
@@ -2392,5 +2362,35 @@ a:hover {
     line-height: 24px;
     margin-left: 0px;
     margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 992px) {
+  .md-none {
+    display: none !important;
+  }
+  .header-1 h1 {
+    font-size: 11px;
+    margin-left: 0px;
+  }
+  .header-1 .contact {
+    margin-right: 0px;
+  }
+  .header-1 .contact a {
+    font-size: 11px;
+  }
+  header .container2 .header-main {
+    padding-bottom: 10px;
+  }
+  header .container2 .logo {
+    height: 60px;
+  }
+  header .container2 .search {
+    margin-left: 25px;
+  }
+  header .container2 .search input {
+    width: 230px;
+  }
+  header .container2 .store {
+    margin-left: 25px;
   }
 }/*# sourceMappingURL=index.css.map */

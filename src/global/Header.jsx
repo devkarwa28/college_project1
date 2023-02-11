@@ -230,7 +230,7 @@ function Header() {
                         </div>
 
                     </div>
-                    <nav className="sm-none">
+                    <nav className="sm-none md-none">
                         <ul className="ul-reset">
                             <li><a href='#'>SOFA</a></li>
                             <li className='droppable'>

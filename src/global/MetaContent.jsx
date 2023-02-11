@@ -4,7 +4,7 @@ function MetaContent(){
     return(
         <>
             <section className="section-13 container-fluid">
-        <div className="conatiner">
+        <div className="container">
             <div className="content">
                 <h1 className="jost fw-600 color-22222 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan eget interdum dui facilisis neque ipsum vulputate.</h1>
                 <p className="font-14 jost color-767676">
