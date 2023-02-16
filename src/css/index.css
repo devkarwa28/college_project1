@@ -127,6 +127,9 @@ a {
   background: #EB7700;
   color: #ffffff;
   padding: 2px 8px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .discount {
@@ -340,10 +343,6 @@ header .container2 .account i:hover {
   display: none;
 }
 
-.m-b31 {
-  margin-bottom: 31px;
-}
-
 .section-1 {
   margin-top: 16px;
 }
@@ -448,8 +447,13 @@ header .container2 .account i:hover {
   font-size: 16px;
   font-family: "Jost", sans-serif;
   color: #222222;
+  margin-top: 8px;
+  font-weight: normal;
 }
-.section-2 .cat-box {
+.section-2 .wide-range-box {
+  margin-bottom: 31px;
+}
+.section-2 .wide-range-box .cat-box {
   width: 212px;
   height: 148px;
   background: #f8f8f8;
@@ -458,10 +462,10 @@ header .container2 .account i:hover {
   place-items: center;
   transition: 300ms ease-in;
 }
-.section-2 .cat-box img {
+.section-2 .wide-range-box .cat-box img {
   transition: 300ms ease-in;
 }
-.section-2 .cat-box:hover img {
+.section-2 .wide-range-box .cat-box:hover img {
   transform: scale(1.05);
 }
 
@@ -589,9 +593,8 @@ header .container2 .account i:hover {
   margin-bottom: 8px;
 }
 
-.card1 img {
-  width: 324px;
-  height: 232px;
+.card1 {
+  position: relative;
 }
 
 .section-5 {
@@ -1284,6 +1287,10 @@ footer .loctaion i {
 }
 .listing-section2 .list-box {
   margin-top: 32px;
+  position: relative;
+}
+.listing-section2 .list-box .list-box-img:hover .add-to-cart {
+  opacity: 1;
 }
 .listing-section2 .list-box strike {
   margin-left: 9px;
@@ -1293,60 +1300,6 @@ footer .loctaion i {
 }
 .listing-section2 .list-box b {
   font-weight: 600;
-}
-.listing-section2 .list-box .item-pic1 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-1.png);
-}
-.listing-section2 .list-box .item-pic1:hover .add-to-cart {
-  opacity: 1;
-}
-.listing-section2 .list-box .item-pic2 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-2.png);
-}
-.listing-section2 .list-box .item-pic2:hover .add-to-cart {
-  opacity: 1;
-}
-.listing-section2 .list-box .item-pic3 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-3.png);
-}
-.listing-section2 .list-box .item-pic3:hover .add-to-cart {
-  opacity: 1;
-}
-.listing-section2 .list-box .item-pic4 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-4.png);
-}
-.listing-section2 .list-box .item-pic4:hover .add-to-cart {
-  opacity: 1;
-}
-.listing-section2 .list-box .item-pic5 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-5.png);
-}
-.listing-section2 .list-box .item-pic5:hover .add-to-cart {
-  opacity: 1;
-}
-.listing-section2 .list-box .item-pic6 {
-  width: 100%;
-  height: 232px;
-  padding: 8px 8px 16px 8px;
-  background: url(../images/list-6.png);
-}
-.listing-section2 .list-box .item-pic6:hover .add-to-cart {
-  opacity: 1;
 }
 
 .wishlist-btn {
@@ -1361,6 +1314,9 @@ footer .loctaion i {
   line-height: 1;
   background-size: 20px 20px;
   background-position: 6px 4px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .wishlist-btn-active {
@@ -1379,7 +1335,8 @@ footer .loctaion i {
   border: 0px;
   color: #ffffff;
   font-family: "Jost", sans-serif;
-  margin-top: 145px;
+  position: absolute;
+  top: 170px;
   transition: 300ms ease;
   opacity: 0;
 }

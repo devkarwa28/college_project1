@@ -15,7 +15,7 @@ function WideRange() {
                     </p>
                     <div className="row m-b31">
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -23,7 +23,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img2} alt="" />
                                 </div>
@@ -31,7 +31,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img3} alt="" />
                                 </div>
@@ -39,7 +39,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -47,7 +47,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -55,7 +55,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -64,7 +64,7 @@ function WideRange() {
                         </div>
 
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -72,7 +72,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img2} alt="" />
                                 </div>
@@ -80,7 +80,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img3} alt="" />
                                 </div>
@@ -88,7 +88,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img1} alt="" />
                                 </div>
@@ -96,7 +96,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img2} alt="" />
                                 </div>
@@ -104,7 +104,7 @@ function WideRange() {
                             </div>
                         </div>
                         <div className="col-4 col-lg-2">
-                            <div>
+                            <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={img3} alt="" />
                                 </div>

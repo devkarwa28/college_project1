@@ -100,6 +100,9 @@ a {
     background: $main-color4;
     color: #ffffff;
     padding: 2px 8px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 .discount {
     background-color: $main-color5;
@@ -303,9 +306,6 @@ header {
         }
     }
 }
-.m-b31 {
-    margin-bottom: 31px;
-}
 .section-1 {
     margin-top: 16px;
     h1 {
@@ -376,18 +376,24 @@ header {
         font-size: $f-16;
         font-family: $ff-1;
         color: #222222;
+        margin-top: 8px;
+        font-weight: normal;
     }
-    .cat-box {
-        width: 212px;
-        height: 148px;
-        background: #f8f8f8;
-        @include center-grid;
-        transition: 300ms ease-in;
-        img {
+    .wide-range-box{
+        margin-bottom: 31px;
+
+        .cat-box {
+            width: 212px;
+            height: 148px;
+            background: #f8f8f8;
+            @include center-grid;
             transition: 300ms ease-in;
-        }
-        &:hover img {
-            transform: scale(1.05);
+            img {
+                transition: 300ms ease-in;
+            }
+            &:hover img {
+                transform: scale(1.05);
+            }
         }
     }
 }
@@ -474,9 +480,10 @@ header {
     }
 }
 
-.card1 img {
-    @include box-w;
+.card1 {
+    position: relative;
 }
+
 // section 5 started
 
 .section-5 {
@@ -1051,6 +1058,10 @@ footer {
     }
     .list-box {
         margin-top: 32px;
+        position: relative;
+        .list-box-img{
+            @include hover-opacity
+        }
         strike {
             margin-left: 9px;
         }
@@ -1059,36 +1070,6 @@ footer {
         }
         b {
             font-weight: 600;
-        }
-        .item-pic1 {
-            @include box-w2;
-            background: url(../images/list-1.png);
-            @include hover-opacity;
-        }
-        .item-pic2 {
-            @include box-w2;
-            background: url(../images/list-2.png);
-            @include hover-opacity;
-        }
-        .item-pic3 {
-            @include box-w2;
-            background: url(../images/list-3.png);
-            @include hover-opacity;
-        }
-        .item-pic4 {
-            @include box-w2;
-            background: url(../images/list-4.png);
-            @include hover-opacity;
-        }
-        .item-pic5 {
-            @include box-w2;
-            background: url(../images/list-5.png);
-            @include hover-opacity;
-        }
-        .item-pic6 {
-            @include box-w2;
-            background: url(../images/list-6.png);
-            @include hover-opacity;
         }
     }
 }
@@ -1104,6 +1085,9 @@ footer {
     line-height: 1;
     background-size: 20px 20px;
     background-position: 6px 4px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 .wishlist-btn-active {
     background: url(../images/active-heart.svg) no-repeat;
@@ -1120,7 +1104,8 @@ footer {
     border: 0px;
     color: #ffffff;
     font-family: $ff-1;
-    margin-top: 145px;
+    position: absolute;
+    top: 170px;
     transition: 300ms ease;
     opacity: 0;
 }
