@@ -95,7 +95,7 @@ function Section1() {
                             </Slider>
                         </div>
 
-                        <div className="col-lg-4 sm-none">
+                        <div className="col-lg-4 sm-none md-none">
                             <div className="bg-background2">
                                 <h1 className="jost fw-600 mb-0">Bedroom Suite</h1>
                                 <h2 className="jost font-24 fw-500">Up To 55% Off</h2>
