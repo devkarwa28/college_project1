@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Billing from "./Billing";
 import Listing from "./Listing";
+import Bedroom_category from "./Bedroom_category";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path='/list' element={<Listing/>}/>
       <Route path="/billing" element={<Billing/>} />
+      <Route path="/bedroom" element={<Bedroom_category/>} />
       </Routes>
     </BrowserRouter>
     </>
