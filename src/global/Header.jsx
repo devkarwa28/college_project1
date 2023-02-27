@@ -232,7 +232,40 @@ function Header() {
                     </div>
                     <nav className="sm-none md-none">
                         <ul className="ul-reset">
-                            <li><a href='#'>SOFA</a></li>
+                            <li className='droppable'>
+                            <Link to='/sofa'>SOFA</Link>
+                            <div className='mega-menu'>
+                                    <div className="cf">
+                                        <ul className="ul-reset">
+                                            <h3>Sofa Sets</h3>
+                                            <li><a href='#'>Wooden Sofa Sets</a></li>
+                                            <li><a href='#'>3 Seater Sofa</a></li>
+                                            <li><a href='#'>2 Seater Sofa</a></li>
+                                            <li><a href='#'>1 Seater Sofa</a></li>
+                                            <li><a href='#'>L Shape Sofa</a></li>
+                                        </ul>
+                                        <ul className="ul-reset">
+                                            <h3>SOFA CUM BED</h3>
+                                            <li><a href='#'>Wooden Sofa Sets</a></li>
+                                            <li><a href='#'>3 Seater Sofa</a></li>
+                                            <li><a href='#'>2 Seater Sofa</a></li>
+                                            <li><a href='#'>1 Seater Sofa</a></li>
+                                            <li><a href='#'>L Shape Sofa</a></li>
+                                        </ul>
+                                        <ul className="ul-reset">
+                                            <h3>SOFA CUM BED</h3>
+                                            <li><a href='#'>Wooden Sofa Sets</a></li>
+                                            <li><a href='#'>3 Seater Sofa</a></li>
+                                            <li><a href='#'>2 Seater Sofa</a></li>
+                                            <li><a href='#'>1 Seater Sofa</a></li>
+                                            <li><a href='#'>L Shape Sofa</a></li>
+                                        </ul>
+                                        <ul className="ul-reset">
+                                            <li><img src={img2} alt="" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
                             <li className='droppable'>
                                 <a href='#'>LIVING</a>
                                 <div className='mega-menu'>
@@ -268,7 +301,7 @@ function Header() {
                                 </div>
                             </li>
                             <li className='droppable'>
-                                <a href='#'>BEDROOM</a>
+                                <Link to='/bedroom'>BEDROOM</Link>
                                 <div className='mega-menu'>
                                     <div className="container cf">
                                         <ul className="ul-reset">

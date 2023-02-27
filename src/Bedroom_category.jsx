@@ -9,7 +9,8 @@ import ClientReview from './global/ClientReview';
 import MetaContent from './global/MetaContent';
 import Testimonial from './global/Testimonial';
 import NewsLetter from './global/NewsLetter';
-import Disclaimer from './global/Disclaimer'
+import Disclaimer from './global/Disclaimer';
+import Discount from './global/Discount'
 import Bedroom_furniture from './bedroom_category/Bedroom_furniture';
 import Bedroom_ranges from './bedroom_category/Bedroom_ranges';
 
@@ -18,6 +19,7 @@ import Bedroom_ranges from './bedroom_category/Bedroom_ranges';
 const Bedroom_category = () => {
     return (
         <>
+            <Discount/>
             <Header />
             <Bedroom_furniture />
             <Bedroom_ranges />
