@@ -14,22 +14,22 @@ import Living_furniture from './living_category/Living_furniture';
 import Living_ranges from './living_category/Living_ranges';
 
 
-const Living_category = () =>{
-    return(
+const Living_category = () => {
+    return (
         <>
-        <Discount/>
-        <Header/>
-        <Living_furniture/>
-        <Living_ranges/>
-        <DealsOfDay/>
-        <Essentials/>
-        <BestSelling/>
-        <ClientReview/>
-        <MetaContent/>
-        <Testimonial/>
-        <NewsLetter/>
-        <Footer/>
-        <Disclaimer/>
+            <Discount />
+            <Header />
+            <Living_furniture />
+            <Living_ranges />
+            <DealsOfDay />
+            <Essentials />
+            <BestSelling />
+            <ClientReview />
+            <MetaContent />
+            <Testimonial />
+            <NewsLetter />
+            <Footer />
+            <Disclaimer />
         </>
     )
 }
