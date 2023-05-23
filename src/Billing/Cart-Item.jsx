@@ -8,7 +8,7 @@ const Cart_Item = (props) => {
     }
     const DecreaseNumber = () =>{
         Setcount(count - 1)
-    }
+    } 
     return (
         <>
             <div className="cart-item d-flex">
