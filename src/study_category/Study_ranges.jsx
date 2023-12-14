@@ -53,7 +53,7 @@ const Study_ranges = () =>{
                                 <div className="cat-box">
                                     <img src='./images/beds.png' alt="" />
                                 </div>
-                                <h6>Wardrobes</h6>
+                                <h6>Wardropes</h6>
                             </div>
                         </div>
                     </div>
