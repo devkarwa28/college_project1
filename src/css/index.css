@@ -457,7 +457,6 @@ header .container2 .account i:hover {
 .wide-range-box .cat-box {
   width: 100%;
   height: 148px;
-  background: #f8f8f8;
   display: grid;
   justify-content: center;
   place-items: center;

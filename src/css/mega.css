@@ -84,6 +84,7 @@ margin-bottom: 16px;
 }
 .mega-menu img{
     margin-left: 0px !important;
+    width: 100%;
 }
 .mega-menu ul {
     float: left;

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import img1 from '../images/logo.svg';
 import img2 from '../images/mega-img.png';
 import img3 from '../images/store.svg';
+import study from '../images/STUDY.jpg';
+import storage from '../images/STORAGE.jpg'
+import living from '../images/LIVING.jpg';
+import dinning from '../images/DINNING.jpg'
 import img4 from '../images/user.svg';
 import img5 from '../images/heart.svg';
 import img6 from '../images/cart.svg';
@@ -292,7 +296,7 @@ function Header() {
                                             <li><a href='#'>Benches</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <li><img src={img2} alt="" /></li>
+                                            <li><img src={living} alt="" /></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -329,7 +333,7 @@ function Header() {
                                             <li><a href='#'>Kids Beds</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <img src={bed} alt="" />
+                                            <img src={img2} alt="" />
                                         </ul>
                                     </div>
                                 </div>
@@ -358,7 +362,7 @@ function Header() {
                                             <li><a href='#'>Crockery Units</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <img src={img2} alt="" />
+                                            <img src={dinning} alt="" />
                                         </ul>
                                     </div>
                                 </div>
@@ -391,7 +395,7 @@ function Header() {
                                             <li><a href='#'>Bar Cabinets</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <img src={img2} alt="" />
+                                            <img src={storage} alt="" />
                                         </ul>
                                     </div>
                                 </div>
@@ -400,31 +404,20 @@ function Header() {
                                 <div className='mega-menu'>
                                     <div className="container cf">
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Tables</h3>
+                                            <li><a href='#'>Study Tables</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Chairs</h3>
+                                            <li><a href='#'>Study Chairs</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Storage</h3>
+                                            <li><a href='#'>Bookshelves</a></li>
+                                            <li><a href='#'>Temples</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <img src={img2} alt="" />
+                                            <img src={study} alt="" />
                                         </ul>
                                     </div>
                                 </div>
