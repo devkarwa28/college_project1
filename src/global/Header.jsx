@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import img1 from '../images/logo.svg';
 import img2 from '../images/mega-img.png';
+import bed from '../images/'
 import img3 from '../images/store.svg';
 import img4 from '../images/user.svg';
 import img5 from '../images/heart.svg';
@@ -329,7 +330,7 @@ function Header() {
                                             <li><a href='#'>Kids Beds</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <img src={img2} alt="" />
+                                            <img src={bed} alt="" />
                                         </ul>
                                     </div>
                                 </div>
