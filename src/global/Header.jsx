@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import img1 from '../images/logo.svg';
-import img2 from '../images/';
+import img2 from '../images/mega-img.png';
 import img3 from '../images/store.svg';
 import img4 from '../images/user.svg';
 import img5 from '../images/heart.svg';
