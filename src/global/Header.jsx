@@ -243,23 +243,18 @@ function Header() {
                                             <li><a href='#'>2 Seater Sofa</a></li>
                                             <li><a href='#'>1 Seater Sofa</a></li>
                                             <li><a href='#'>L Shape Sofa</a></li>
+                                            <li><a href='#'>Fabric Sofa</a></li>
                                         </ul>
                                         <ul className="ul-reset">
                                             <h3>SOFA CUM BED</h3>
                                             <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>DIWANS</h3>
+                                            <li><a href='#'>Wooden Diwan</a></li>
+                                            <li><a href='#'>Wooden Diwan without Storage</a></li>
                                         </ul>
+                                        
                                         <ul className="ul-reset">
                                             <li><img src={img2} alt="" /></li>
                                         </ul>
@@ -271,28 +266,30 @@ function Header() {
                                 <div className='mega-menu'>
                                     <div className="cf">
                                         <ul className="ul-reset">
-                                            <h3>Sofa Sets</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Living Storage</h3>
+                                            <li><a href='#'> Tv Units</a></li>
+                                            <li><a href='#'>Bookshelves</a></li>
+                                            <li><a href='#'>Display Unit</a></li>
+                                            <li><a href='#'>Shoe Racks</a></li>
+                                            <li><a href='#'>Cabinets and Sideboard</a></li>
+                                            <li><a href='#'>Chest Of Drawers</a></li>
+                                            <li><a href='#'> Temples</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Tables</h3>
+                                            <li><a href='#'>Coffee Tables</a></li>
+                                            <li><a href='#'>Coffee Table Sets</a></li>
+                                            <li><a href='#'>Nest Of Tables</a></li>
+                                            <li><a href='#'>Side and End Tables</a></li>
+                                            <li><a href='#'>Console Table</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Chairs</h3>
+                                            <li><a href='#'>Rocking Chairs</a></li>
+                                            <li><a href='#'>Arm Chairs</a></li>
+                                            <li><a href='#'>Metal Chairs</a></li>
+                                            <li><a href='#'>Stools</a></li>
+                                            <li><a href='#'>Benches</a></li>
                                         </ul>
                                         <ul className="ul-reset">
                                             <li><img src={img2} alt="" /></li>
@@ -305,28 +302,31 @@ function Header() {
                                 <div className='mega-menu'>
                                     <div className="container cf">
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Beds</h3>
+                                            <li><a href='#'>Queen Size Beds</a></li>
+                                            <li><a href='#'>King Size Beds</a></li>
+                                            <li><a href='#'>Single Beds</a></li>
+                                            <li><a href='#'>Upholstered Beds</a></li>
+                                            <li><a href='#'>Sofa Cum Beds</a></li>
+                                            <li><a href='#'>Poster Beds</a></li>
+                                            <li><a href='#'>Diwan Beds</a></li>
+                                            <li><a href='#'>Hydraulic Storage Beds</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Storage & Accessories</h3>
+                                            <li><a href='#'>Bedside Tables</a></li>
+                                            <li><a href='#'>Chest Of Drawers</a></li>
+                                            <li><a href='#'>Wardrobes</a></li>
+                                            <li><a href='#'>Dressing Table</a></li>
+                                            <li><a href='#'>Trunk and Blanket Boxes</a></li>
+                                            <li><a href='#'>Room Dividers</a></li>
+                                            <li><a href='#'>Cabinets and Sideboards</a></li>
+                                            <li><a href='#'>Trunk and Blanket Boxes</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Kids Bedroom</h3>
+                                            <li><a href='#'>Bunk Beds</a></li>
+                                            <li><a href='#'>Kids Beds</a></li>
                                         </ul>
                                         <ul className="ul-reset">
                                             <img src={img2} alt="" />
@@ -338,28 +338,24 @@ function Header() {
                                 <div className='mega-menu'>
                                     <div className="container cf">
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Dining Table and Sets</h3>
+                                            <li><a href='#'>6 Seater Dining Sets</a></li>
+                                            <li><a href='#'>4 Seater Dining Sets</a></li>
+                                            <li><a href='#'>Round Dining Sets</a></li>
+                                            <li><a href='#'>Dining Tables</a></li>
+                                            <li><a href='#'>8 Seater Dining Sets</a></li>
+                                            <li><a href='#'>Dining Storage</a></li>
+                                            <li><a href='#'>Extendable Dining Sets</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Chairs</h3>
+                                            <li><a href='#'>Benches</a></li>
+                                            <li><a href='#'>Dining Chairs</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Dining Storage</h3>
+                                            <li><a href='#'>Cabinets and Sideboards</a></li>
+                                            <li><a href='#'>Crockery Units</a></li>
                                         </ul>
                                         <ul className="ul-reset">
                                             <img src={img2} alt="" />
@@ -371,28 +367,28 @@ function Header() {
                                 <div className='mega-menu'>
                                     <div className="container cf">
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                        <h3>Living Storage</h3>
+                                            <li><a href='#'> Tv Units</a></li>
+                                            <li><a href='#'>Bookshelves</a></li>
+                                            <li><a href='#'>Display Unit</a></li>
+                                            <li><a href='#'>Shoe Racks</a></li>
+                                            <li><a href='#'>Cabinets and Sideboard</a></li>
+                                            <li><a href='#'>Chest Of Drawers</a></li>
+                                            <li><a href='#'> Temples</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Bedroom Storage</h3>
+                                            <li><a href='#'>Chest Of Drawers</a></li>
+                                            <li><a href='#'>Wardrobes</a></li>
+                                            <li><a href='#'>Bedside Tables</a></li>
+                                            <li><a href='#'>Trunk and Blanket Boxes</a></li>
+                                            <li><a href='#'>Dressing Table</a></li>
                                         </ul>
                                         <ul className="ul-reset">
-                                            <h3>SOFA CUM BED</h3>
-                                            <li><a href='#'>Wooden Sofa Sets</a></li>
-                                            <li><a href='#'>3 Seater Sofa</a></li>
-                                            <li><a href='#'>2 Seater Sofa</a></li>
-                                            <li><a href='#'>1 Seater Sofa</a></li>
-                                            <li><a href='#'>L Shape Sofa</a></li>
+                                            <h3>Bar Furniture</h3>
+                                            <li><a href='#'>Bar Trolleys</a></li>
+                                            <li><a href='#'>Bar Stools and Chairs</a></li>
+                                            <li><a href='#'>Bar Cabinets</a></li>
                                         </ul>
                                         <ul className="ul-reset">
                                             <img src={img2} alt="" />
