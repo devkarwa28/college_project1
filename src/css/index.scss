@@ -133,7 +133,7 @@ header {
     .container2 {
         .search {
             margin: auto 0px;
-            margin-left: 240px;
+            margin-left: 160px;
             input {
                 width: 480px;
                 padding: 8px 0px 8px 14px;
@@ -388,8 +388,11 @@ header {
         height: 148px;
         @include center-grid;
         transition: 300ms ease-in;
+        overflow: hidden;
+        
         img {
             transition: 300ms ease-in;
+            width: 100%;
         }
         &:hover img {
             transform: scale(1.05);

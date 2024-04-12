@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+import sofa_set from '../images/sofa_set.jpg';
+import beds3 from '../images/beds3.jpg';
+import dinning_set from '../images/dinning_set.jpg';
+import tv_units from '../images/tv_units.jpg';
+import dressing_table from '../images/dressing_table.jpg';
+import study_table from '../images/study_table.jpg';
+import shoe_rack from '../images/shoe_rack.jpg';
+import console_table from '../images/console_table.jpg';
+import sofa_cum_bed from '../images/sofa_cum_bed.jpg';
+import chest_drawer from '../images/chest_drawer.jpg';
+import sideboards from '../images/sideboards.jpg';
+import bar_cabinets from '../images/bar_cabinets.jpg';

@@ -42,7 +42,7 @@ function Location(){
         <>
         <section className="section-10 container-fluid">
         <div className="container">
-            <h1>#Jodhpuri Furniture</h1>
+            <h1>#Whimsical Woods</h1>
             <h2 >Offline Furniture Experience Store</h2>
 
             <div className="row">
@@ -53,10 +53,10 @@ function Location(){
 
                         </div>
                         <h3 className="jost font-24 fw-500 color-22222">
-                            Marathalli
+                            Chokha
                         </h3>
                         <p className="jost font-15 fw-normal color-767676">
-                            No.-65, LRDE Layout, Karthik nagar, O.R.R Bangalore - 560037 
+                            No.-65,Near Hariyali Hotel,Karthik nagar, Jodhpur  - 342006 
                             <br/>
                             ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
                         </p>
@@ -71,10 +71,10 @@ function Location(){
 
                         </div>
                         <h3 className="jost font-24 fw-500 color-22222">
-                            Kormangala
+                            BASNI
                         </h3>
                         <p className="jost font-15 fw-normal color-767676">
-                            No.-35, Inner ring road, Koramangala , Bangalore - 560037 ( Near Sony World Signal , After Ejipura signal on 100 feet inner ring road towards sony signal ) 
+                            No.-35,Sector-1, Basni , Jodhpur - 342001 ( Near Sony World Si , After Ejipura signal on 100 feet inner ring road towards sony signal )
                         </p>
                         <button className="btn-1 jost font-15 fw-500">
                             Get Directions<i className="fa-solid fa-angle-right"></i>

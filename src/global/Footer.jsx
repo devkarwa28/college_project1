@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from '../images/logo.svg';
+import img1 from '../images/logo.png';
 
 function Footer(){
     return(
@@ -13,10 +13,10 @@ function Footer(){
                         <div className="footer-1-1">
                             <a href=""><img src={img1} alt=""/></a>
                             <h1 className="jost font-16 color-767676"> 
-                                Buy all solid sheesham wood furniture online in Bangalore at best price only on Jodhpuri furniture store.
+                                Buy all solid sheesham wood furniture online in Bangalore at best price only on Whimsical Woods store.
                             </h1>
                             <div>
-                            <a href="" className="jost font-16 color-767676"> info@jodhpurifurniture.com</a> |
+                            <a href="" className="jost font-16 color-767676"> info@whimsicalwoods.com</a> |
                             <a href="" className="jost font-16 color-767676"> +91 99299 46846</a>
                             </div>
                             <div className="social-media">
@@ -79,19 +79,19 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Jodhpuri Furniture, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                        Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Jodhpuri Furniture, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Jodhpuri Furniture, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
                         </p>
                     </div>
                     
@@ -101,13 +101,13 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Jodhpuri Furniture, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Jodhpuri Furniture, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
                         </p>
                     </div>
                 </div>

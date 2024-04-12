@@ -1,8 +1,17 @@
 import React from "react";
-import img1 from '../images/sofa.png';
-import img2 from '../images/beds.png';
-import img3 from '../images/dinning.png';
-import img4 from "../images/chevron-right.svg"
+import sofa_set from '../images/sofa_set.jpg';
+import beds3 from '../images/beds3.jpg';
+import dinning_set from '../images/dinning_set.jpg';
+import tv_units from '../images/tv_units.jpg';
+import dressing_table from '../images/dressing_table.jpg';
+import study_table from '../images/study_table.jpg';
+import shoe_rack from '../images/shoe_rack.jpg';
+import console_table from '../images/console_table.jpg';
+import sofa_cum_bed from '../images/sofa_cum_bed.jpg';
+import chest_drawer from '../images/chest_drawer.jpg';
+import sideboards from '../images/sideboards.jpg';
+import bar_cabinets from '../images/bar_cabinets.jpg';
+import right from '../images/chevron-right.svg';
 
 function WideRange() {
     return (
@@ -14,99 +23,99 @@ function WideRange() {
                         Visit our shop to see amazing creations from our designers.
                     </p>
                     <div className="row m-b31">
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={sofa_set} alt="" />
                                 </div>
                                 <h6>Sofa Sets</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img2} alt="" />
+                                    <img src={beds3} alt="" />
                                 </div>
                                 <h6>Beds</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img3} alt="" />
+                                    <img src={dinning_set} alt="" />
                                 </div>
                                 <h6>Dinning Sets</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={tv_units} alt="" />
                                 </div>
                                 <h6>TV Units</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={dressing_table} alt="" />
                                 </div>
                                 <h6>Book Shelves</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={study_table} alt="" />
                                 </div>
                                 <h6>Study Tables</h6>
                             </div>
                         </div>
 
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={shoe_rack} alt="" />
                                 </div>
                                 <h6>Shoe Racks</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img2} alt="" />
+                                    <img src={console_table} alt="" />
                                 </div>
                                 <h6>Wardrobes</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img3} alt="" />
+                                    <img src={sofa_cum_bed} alt="" />
                                 </div>
                                 <h6>Sofa Cum Beds</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img1} alt="" />
+                                    <img src={chest_drawer} alt="" />
                                 </div>
                                 <h6>Chest Of Drawers</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img2} alt="" />
+                                    <img src={sideboards} alt="" />
                                 </div>
                                 <h6>Cabinets & Sideboards</h6>
                             </div>
                         </div>
-                        <div className="col-4 col-lg-2">
+                        <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
                                 <div className="cat-box">
-                                    <img src={img3} alt="" />
+                                    <img src={bar_cabinets} alt="" />
                                 </div>
                                 <h6>Book Shelves</h6>
                             </div>
@@ -114,7 +123,7 @@ function WideRange() {
                     </div>
                     <div className="d-flex justify-content-center">
                         <button className="view-all-btn">
-                        Explore All Categories <img src={img4} />
+                        Explore All Categories <img src={right} />
                         </button>
                     </div>
                     <div className="border sm-none"></div>

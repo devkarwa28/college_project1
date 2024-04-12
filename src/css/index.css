@@ -162,7 +162,7 @@ header {
 }
 header .container2 .search {
   margin: auto 0px;
-  margin-left: 240px;
+  margin-left: 160px;
 }
 header .container2 .search input {
   width: 480px;
@@ -461,9 +461,11 @@ header .container2 .account i:hover {
   justify-content: center;
   place-items: center;
   transition: 300ms ease-in;
+  overflow: hidden;
 }
 .wide-range-box .cat-box img {
   transition: 300ms ease-in;
+  width: 100%;
 }
 .wide-range-box .cat-box:hover img {
   transform: scale(1.05);
