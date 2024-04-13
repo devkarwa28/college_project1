@@ -6,9 +6,9 @@ function Disclaimer(){
     return(
         <>
             <div class="disclaimer container-fluid">
-        <div class="container2 d-lg-flex justify-content-between">
+        <div class="container2 d-lg-flex justify-content-between mb-4">
 
-            <h1 class="color-767676 fw-normal jost font-16">Copyright 2022 © Jodhpuri Furniture - All Rights Reserved.</h1>
+            <h1 class="color-767676 fw-normal jost font-16">Copyright 2022 ©  Whimsical Woods - All Rights Reserved.</h1>
             <img src={img1} alt="" className="sm-none"/>
             <div className="d-flex d-lg-none justify-content-center">
                             <button className="view-all-btn">
@@ -16,6 +16,9 @@ function Disclaimer(){
                             </button>
             </div>
         </div>
+        {/* <div class="ddkr">
+            Designed & Developed By DDKR
+        </div> */}
      </div>
         </>
     )

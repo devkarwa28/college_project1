@@ -17,7 +17,7 @@ function Footer(){
                             </h1>
                             <div>
                             <a href="" className="jost font-16 color-767676"> info@whimsicalwoods.com</a> |
-                            <a href="" className="jost font-16 color-767676"> +91 99299 46846</a>
+                            <a href="tel:7611077344" className="jost font-16 color-767676"> +91 7611077344</a>
                             </div>
                             <div className="social-media">
                                 <a href=""><i className="fa-brands fa-square-facebook"></i></a>
