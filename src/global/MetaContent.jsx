@@ -6,52 +6,65 @@ function MetaContent(){
             <section className="section-13 container-fluid">
         <div className="container">
             <div className="content">
-                <h1 className="jost fw-600 color-22222 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan eget interdum dui facilisis neque ipsum vulputate.</h1>
+                <h1 className="jost fw-600 color-22222 mb-0"> Welcome to Jodhpuri Furniture - Elevate Your Living Space with Timeless Elegance</h1>
                 <p className="font-14 jost color-767676">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus fringilla pellentesque non pellentesque aliquam. Sodales elementum amet egestas egestas sed fames amet, tellus scelerisque. Velit odio ac in eget viverra sed. Amet ac nunc, duis suspendisse. Cursus et mi diam facilisis imperdiet. Maecenas mattis a arcu neque in et feugiat. Sed congue ultrices accumsan, nibh elementum arcu. Venenatis vitae egestas mauris tellus malesuada aliquam molestie. Duis a quam libero, orci, id. Quam eget netus metus, vulputate. Arcu pretium, blandit dictum eget.
-Tortor adipiscing quis velit volutpat enim elementum tincidunt eget. Cras vulputate leo rhoncus sed id imperdiet nibh id quam. Morbi id enim nunc ac felis, in. Augue accumsan massa enim ut ac. Viverra ac lacus leo sed dui tempus, a, nibh elementum. Aliquam commodo interdum ut lectus lacus sit pharetra sit ultrices. Tristique ac quis dictumst ut ac.
-<br/>
-<br/>
-Risus quisque mi elit aliquam egestas eget aliquet nam duis. Facilisi gravida sagittis, massa lectus lorem rhoncus adipiscing vitae a. Integer nullam leo ornare mauris porttitor nisl. Fermentum commodo, metus sed sem lobortis. Commodo aliquam id magna et in ornare suscipit nibh. Viverra massa tristique volutpat, tellus orci tincidunt. Arcu habitasse rhoncus diam egestas cras id pharetra. Eu, et potenti vitae sem a in elementum. Tincidunt tortor condimentum euismod amet placerat. Id consequat luctus tincidunt gravida libero mauris eleifend. Eu egestas consectetur cursus lobortis aliquet facilisis purus eget venenatis. Mattis odio pharetra neque, senectus purus maecenas ut scelerisque id.
-<br/>
-<br/>
-Lacus id mauris ipsum et id euismod eu. Hac cras id elementum, velit sed id quam.
-Turpis sit eleifend nibh vitae. Pellentesque interdum viverra lorem et suspendisse egestas nisi. Volutpat, diam quis diam purus. Amet libero libero sodales sed. Neque, quis vulputate bibendum parturient tellus. Feugiat mi feugiat blandit quis egestas nisl. Commodo praesent iaculis enim mattis lacus eu aliquam pharetra. Augue etiam malesuada id vestibulum tellus. In.
+                Discover a world of exquisite craftsmanship and timeless elegance with Jodhpuri Furniture. As a premier destination for fine furnishings, we bring you an extensive collection that seamlessly marries tradition with contemporary design. Explore our range, meticulously curated to transform your living spaces into expressions of your unique style and personality.
+                <br/>
+                Our Top Collection - Impressive Collection For Your Dream Home.
                 </p>
             </div>
             <div className="content">
-                <h1 className="jost fw-600 color-22222 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan eget interdum dui facilisis neque ipsum vulputate.</h1>
+                <h1 className="jost fw-600 color-22222 mb-0">Crafting Indian Sheesham Wood Furniture</h1>
                 <p className="font-14 jost color-767676">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus fringilla pellentesque non pellentesque aliquam. Sodales elementum amet egestas egestas sed fames amet, tellus scelerisque. Velit odio ac in eget viverra sed. Amet ac nunc, duis suspendisse. Cursus et mi diam facilisis imperdiet. Maecenas mattis a arcu neque in et feugiat. Sed congue ultrices accumsan, nibh elementum arcu. Venenatis vitae egestas mauris tellus malesuada aliquam molestie. Duis a quam libero, orci, id. Quam eget netus metus, vulputate. Arcu pretium, blandit dictum eget.
-Tortor adipiscing quis velit volutpat enim elementum tincidunt eget. Cras vulputate leo rhoncus sed id imperdiet nibh id quam. Morbi id enim nunc ac felis, in. Augue accumsan massa enim ut ac. Viverra ac lacus leo sed dui tempus, a, nibh elementum. Aliquam commodo interdum ut lectus lacus sit pharetra sit ultrices. Tristique ac quis dictumst ut ac.
-<br/>
-<br/>
-Risus quisque mi elit aliquam egestas eget aliquet nam duis. Facilisi gravida sagittis, massa lectus lorem rhoncus adipiscing vitae a. Integer nullam leo ornare mauris porttitor nisl. Fermentum commodo, metus sed sem lobortis. Commodo aliquam id magna et in ornare suscipit nibh. Viverra massa tristique volutpat, tellus orci tincidunt. Arcu habitasse rhoncus diam egestas cras id pharetra. Eu, et potenti vitae sem a in elementum. Tincidunt tortor condimentum euismod amet placerat. Id consequat luctus tincidunt gravida libero mauris eleifend. Eu egestas consectetur cursus lobortis aliquet facilisis purus eget venenatis. Mattis odio pharetra neque, senectus purus maecenas ut scelerisque id.
-<br/>
+                We take pride in crafting Indian Sheesham wood furniture that resonates with heritage and finesse. Every item is a labor of love and a testament to Jodhpur's craftsmanship's long-standing traditions. You not only bring home a work of art from Jodhpuri Furniture, but also a piece of history..
                 </p>
             </div>
             <div className="content">
-                <h1 className="jost fw-600 color-22222 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan eget interdum dui facilisis neque ipsum vulputate.</h1>
+                <h1 className="jost fw-600 color-22222 mb-0">Unmatched Variety in Jodhpuri Furniture</h1>
                 <p className="font-14 jost color-767676">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus fringilla pellentesque non pellentesque aliquam. Sodales elementum amet egestas egestas sed fames amet, tellus scelerisque. Velit odio ac in eget viverra sed. Amet ac nunc, duis suspendisse. Cursus et mi diam facilisis imperdiet. Maecenas mattis a arcu neque in et feugiat. Sed congue ultrices accumsan, nibh elementum arcu. Venenatis vitae egestas mauris tellus malesuada aliquam molestie. Duis a quam libero, orci, id. Quam eget netus metus, vulputate. Arcu pretium, blandit dictum eget.
-Tortor adipiscing quis velit volutpat enim elementum tincidunt eget. Cras vulputate leo rhoncus sed id imperdiet nibh id quam. Morbi id enim nunc ac felis, in. Augue accumsan massa enim ut ac. Viverra ac lacus leo sed dui tempus, a, nibh elementum. Aliquam commodo interdum ut lectus lacus sit pharetra sit ultrices. Tristique ac quis dictumst ut ac.
-<br/>
-<br/>
-Risus quisque mi elit aliquam egestas eget aliquet nam duis. Facilisi gravida sagittis, massa lectus lorem rhoncus adipiscing vitae a. Integer nullam leo ornare mauris porttitor nisl. Fermentum commodo, metus sed sem lobortis. Commodo aliquam id magna et in ornare suscipit nibh. Viverra massa tristique volutpat, tellus orci tincidunt. Arcu habitasse rhoncus diam egestas cras id pharetra. Eu, et potenti vitae sem a in elementum. Tincidunt tortor condimentum euismod amet placerat. Id consequat luctus tincidunt gravida libero mauris eleifend. Eu egestas consectetur cursus lobortis aliquet facilisis purus eget venenatis. Mattis odio pharetra neque, senectus purus maecenas ut scelerisque id.
-<br/>
-<br/>
-Lacus id mauris ipsum et id euismod eu. Hac cras id elementum, velit sed id quam.
-Turpis sit eleifend nibh vitae. Pellentesque interdum viverra lorem et suspendisse egestas nisi. Volutpat, diam quis diam purus. Amet libero libero sodales sed. Neque, quis vulputate bibendum parturient tellus. Feugiat mi feugiat blandit quis egestas nisl. Commodo praesent iaculis enim mattis lacus eu aliquam pharetra. Augue etiam malesuada id vestibulum tellus. In.
+                Explore a diverse array of options in our collection. From classic to modern, we offer an extensive range of Jodhpuri furniture designs, each one crafted with precision and passion. Our commitment to quality and attention to detail is evident in every piece, making it not just furniture, but a testament to exceptional craftsmanship.
                 </p>
             </div>
             <div className="content">
-                <h1 className="jost fw-600 color-22222 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan eget interdum dui facilisis neque ipsum vulputate.</h1>
+                <h1 className="jost fw-600 color-22222 mb-0">The Beauty of Sheesham Wood Furniture</h1>
                 <p className="font-14 jost color-767676">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus fringilla pellentesque non pellentesque aliquam. Sodales elementum amet egestas egestas sed fames amet, tellus scelerisque. Velit odio ac in eget viverra sed. Amet ac nunc, duis suspendisse. Cursus et mi diam facilisis imperdiet. Maecenas mattis a arcu neque in et feugiat. Sed congue ultrices accumsan, nibh elementum arcu. Venenatis vitae egestas mauris tellus malesuada aliquam molestie. Duis a quam libero, orci, id. Quam eget netus metus, vulputate. Arcu pretium, blandit dictum eget.
-Tortor adipiscing quis velit volutpat enim elementum tincidunt eget. Cras vulputate leo rhoncus sed id imperdiet nibh id quam. Morbi id enim nunc ac felis, in. Augue accumsan massa enim ut ac. Viverra ac lacus leo sed dui tempus, a, nibh elementum. Aliquam commodo interdum ut lectus lacus sit pharetra sit ultrices. Tristique ac quis dictumst ut ac.
-<br/>
-<br/>
-Risus quisque mi elit aliquam egestas eget aliquet nam duis. Facilisi gravida sagittis, massa lectus lorem rhoncus adipiscing vitae a. Integer nullam leo ornare mauris porttitor nisl. Fermentum commodo, metus sed sem lobortis. Commodo aliquam id magna et in ornare suscipit nibh. Viverra massa tristique volutpat, tellus orci tincidunt. Arcu habitasse rhoncus diam egestas cras id pharetra. Eu, et potenti vitae sem a in elementum. Tincidunt tortor condimentum euismod amet placerat. Id consequat luctus tincidunt gravida libero mauris eleifend. Eu egestas consectetur cursus lobortis aliquet facilisis purus eget venenatis. Mattis odio pharetra neque, senectus purus maecenas ut scelerisque id.
+                Experience the rich allure of Sheesham wood, renowned for its durability and distinctive grain patterns. Our Sheesham wood furniture is not just a statement of luxury, but a promise of lasting beauty. Whether you're seeking elegant dining sets, luxurious sofas, or functional storage solutions, our Sheesham collection offers a touch of sophistication to any space.
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Solid Wood Revolution</h1>
+                <p className="font-14 jost color-767676">
+                Solid Wood Creations for Timeless Interior Charm.
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Bespoke Designs and Personalized Service</h1>
+                <p className="font-14 jost color-767676">
+                Your home is a reflection of your unique taste. We provide customisation services so you may create furniture that matches your vision. Select the ideal proportions, upholstery, and finish, then let us create the furniture of your dreams.
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Experience Jodhpuri Furniture - Visit Our Showrooms Across India</h1>
+                <p className="font-14 jost color-767676">
+                Immerse yourself in the world of Jodhpuri Furniture by visiting our showrooms across India. Witness the artistry up close, feel the textures, and let our knowledgeable staff guide you to finding the perfect pieces for your home.
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Best Online Furniture in India - solid sheesham</h1>
+                <p className="font-14 jost color-767676">
+                For those who prefer the ease of online shopping, our website provides a seamless and secure browsing and purchasing experience. From detailed product descriptions to high-resolution images, everything you need is at your fingertips
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Exceptional Customer Support</h1>
+                <p className="font-14 jost color-767676">
+                Your satisfaction is our priority. Our dedicated team is available to address your queries, provide guidance, and ensure that your experience with Jodhpuri Furniture is nothing short of exceptional.
+                </p>
+            </div>
+            <div className="content">
+                <h1 className="jost fw-600 color-22222 mb-0">Their Words, Our Pride</h1>
+                <p className="font-14 jost color-767676">
+                Happy Words of our Happy Customers Reviews with photos Manish Chouhan 8696 Best quality solid sheesham wood furniture. Thank you jodhpuri furniture Preeti Mathur We purchased some wood furniture from this shop. The quality of the sheesham wood furniture is great. Riya Garg This sheesham wood furniture bed is a must buy. And the quality of this dressing table is good too.
                 </p>
             </div>
             <div className="border">

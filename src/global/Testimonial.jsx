@@ -1,5 +1,16 @@
 import React from "react";
-import img1 from '../images/star.svg'
+import img1 from '../images/star.svg';
+import ani from '../images/ANI.jpg';
+import asia from '../images/asian_news.jpg';
+import blunt from '../images/the_blunt.jpg';
+import google from '../images/google_news.jpg';
+import daliy from '../images/daliy.jpg';
+import business_line from '../images/business_line.jpg';
+import big_news from '../images/big_news.jpg';
+import startup_story from '../images/startup_story.jpg';
+import last from '../images/last.jpg';
+import sagri from '../images/sagri.jpg';
+import lokmat_times from '../images/lokmat_times.jpg'
 import Slider from "react-slick";
 
 function Testimonial() {
@@ -46,64 +57,57 @@ function Testimonial() {
                         <Slider {...settings}>
                             <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={ani} alt="" />
                                 </div>
                             </div>
                             <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={asia} alt="" /> 
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={blunt} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={google} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={daliy} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={startup_story} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={big_news} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={business_line} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={last} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={lokmat_times} alt="" />
                                 </div>
-                            </div><div>
+                            </div>
+                            <div>
                                 <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
-                                </div>
-                            </div><div>
-                                <div className="star d-flex">
-                                    <img src={img1} alt="" />
-                                    <h1 className="jost fw-700">Lorem ipsum</h1>
+                                    <img src={sagri} alt="" />
                                 </div>
                             </div>
                         </Slider>
