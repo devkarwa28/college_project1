@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Billing from "./Billing";
 import Listing from "./Listing";
+import User_address from './Billing_checkout/User_address';
 import Bedroom_category from "./Bedroom_category";
 import Sofa_category from "./Sofa_category";
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path='/list' element={<Listing/>}/>
       <Route path="/billing" element={<Billing/>} />
+      <Route path="/user_address" element={<User_address/>} />
       <Route path="/bedroom" element={<Bedroom_category/>} />
       <Route path="/sofa" element={<Sofa_category/>} />
 

@@ -1372,7 +1372,8 @@ footer .loctaion i {
   border-bottom: 1px solid #e5e5e5;
 }
 .header-2 .img1 {
-  margin-right: 263px;
+  margin-right: 180px;
+  padding: 10px 0px;
 }
 .header-2 .progress-bar-cart {
   place-items: center;

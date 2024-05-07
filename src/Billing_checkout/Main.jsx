@@ -12,8 +12,6 @@ function Main() {
                     <div className="row">
                         <div className="col-lg-8">
                         <MyCart/>
-                        <Billing_address/>
-                        <Billing_Payment/>
                         </div>
                         <div className='col-lg-4'>
                             <PriceDetails />

@@ -46,7 +46,7 @@ function Footer(){
                         <div className="footer1-3">
                             <h2 className="font-20 fw-600 jost color-22222">Customer Services</h2>
                             <ul className="p-0">
-                                <li><a href="">Sell On Jodhpuri</a></li>
+                                <li><a href="">Sell On Whimsical Woods</a></li>
                                 <li><a href="">Security & Privacy</a></li>
                                 <li><a href="">Return & Refund</a></li>
                                 <li><a href="">Payment Policy</a></li>
