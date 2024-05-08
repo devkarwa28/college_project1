@@ -112,73 +112,73 @@ const review_detail = [
         id : 0,
         imglink: "images/sec12-1.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "The furniture exceeded my expectations! It's beautifully crafted, sturdy, and stylish. The attention to detail is remarkable. Assembly was straightforward, and it adds a touch of elegance to my space. Highly recommended!",
+        customerName: "Dev",
+        customerLocation: "Srinagar,Kashmir"
     },
     {
         id : 1,
         imglink: "images/sec12-2.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "Impeccable craftsmanship! The furniture is both functional and aesthetically pleasing. Each piece is a testament to quality and durability. It elevates the ambiance of any room effortlessly. I'm thoroughly impressed.",
+        customerName: "Khusi",
+        customerLocation: "Silliguri,West Bengal"
     },
     {
         id : 2,
         imglink: "images/sec12-3.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "From design to delivery, the furniture experience was exceptional. It seamlessly blends into my home, enhancing its appeal. The comfort it provides is unmatched, making it a delightful addition to my living space.",
+        customerName: "Depanjali",
+        customerLocation: "Pune,Maharastra"
     },
     {
         id : 3,
         imglink: "images/sec12-4.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "Outstanding furniture that delivers on both style and substance! It's a perfect balance of form and function. The materials used are top-notch, ensuring longevity. I couldn't be happier with my purchase. Highly recommended for anyone seeking quality furnishings.",
+        customerName: "Ramesh",
+        customerLocation: "Chennai,Tamil Nadu"
     },
     {
         id : 4,
         imglink: "images/sec12-1.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "Outstanding furniture that delivers on both style and substance! It's a perfect balance of form and function. The materials used are top-notch, ensuring longevity. I couldn't be happier with my purchase. Highly recommended for anyone seeking quality furnishings.",
+        customerName: "Arun",
+        customerLocation: "Mandoti,Haryana"
     },
     {
         id : 5,
         imglink: "images/sec12-2.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "Exceptional furniture that exudes luxury! It's not only visually stunning but also incredibly comfortable. The attention to detail is evident in every aspect, from the design to the construction. It's a true statement of style and quality.",
+        customerName: "Manoj",
+        customerLocation: "Beawar,Rajasthan"
     },
     {
         id : 6,
         imglink: "images/sec12-3.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
+        review: "he furniture exudes sophistication and charm. It transforms my living space into a haven of comfort and elegance. Each piece is thoughtfully designed, creating a cohesive look that complements my home decor perfectly. Absolutely delighted with my purchase!",
+        customerName: "Shayam",
         customerLocation: "Jodhpur,Rajasthan"
     },
     {
         id : 7,
         imglink: "images/sec12-4.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "Exceptional furniture that exudes luxury! It's not only visually stunning but also incredibly comfortable. The attention to detail is evident in every aspect, from the design to the construction. It's a true statement of style and quality.",
+        customerName: "Ravenna",
+        customerLocation: "Lucknow,Uttar Pradesh"
     },
     {
         id : 8,
         imglink: "images/sec12-2.png",
         productName: "Scott King Size Bed with Storage",
-        review: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum ac nisl morbi iaculis quis. Aliquet elit pretium faucibus urna, cras senectus eget dui.",
-        customerName: "Dev Karwa",
-        customerLocation: "Jodhpur,Rajasthan"
+        review: "A fantastic addition to my home! The furniture's modern yet timeless design instantly caught my eye. It's as practical as it is stylish, offering both comfort and functionality. The superior quality ensures it will remain a centerpiece in my home for years to come.",
+        customerName: "Amit",
+        customerLocation: "Gandhi Nagar,Gujrat"
     }
 
 ]

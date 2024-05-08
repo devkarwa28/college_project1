@@ -2363,6 +2363,46 @@ a:hover {
     margin-left: 0px;
     margin-bottom: 16px;
   }
+  .header-2 {
+    display: none;
+  }
+  .Cart .saved {
+    padding: 10px 0px;
+  }
+  .Cart .saved h1 {
+    font-size: 14px !important;
+    margin-bottom: 0px !important;
+  }
+  .cart-item .cart_item_img {
+    width: 90px;
+    height: 90px;
+  }
+  .cart-item .qty {
+    margin-left: 34%;
+  }
+  .cart-item .cart-item-content {
+    margin-left: 10px;
+  }
+  .cart-item .cart-item-content h1 {
+    font-size: 14px !important;
+  }
+  .cart-item .cart-item-content h2 {
+    font-size: 12px !important;
+    margin-top: 6px;
+  }
+  .cart-item .cart-item-content .h3 {
+    font-size: 10px;
+  }
+  .cart-item .cart-item-content .cart-rate strike {
+    font-size: 11px;
+  }
+  .cart-item .cart-item-content .cart-rate h4 {
+    font-size: 14px;
+  }
+  .cart-item .cart-item-content .savings {
+    display: none !important;
+    margin-left: 10px;
+  }
 }
 @media only screen and (min-width: 700px) and (max-width: 992px) {
   .md-none {

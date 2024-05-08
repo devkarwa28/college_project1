@@ -12,7 +12,7 @@ const Cart_Item = (props) => {
     return (
         <>
             <div className="cart-item d-flex">
-                <img src={props.imglink} alt="" />
+                <img className="cart_item_img" src={props.imglink} alt="" />
 
                 <div className="cart-item-content">
                     <div className="d-flex justify-content-between">
@@ -20,17 +20,17 @@ const Cart_Item = (props) => {
                             <h1 className="font-16 jost fw-600 color-22222 mb-0">{props.productName}</h1>
                             <h2 className="font-13 color-767676 jost fw-normal">Bed Size: {props.bedSize} | Finish: {props.finishName}</h2>
                         </div>
-                        <div className="">
+                        <div className="sm-none">
                             <h3 className="font-14 fw-normal jost"><i className="fa-regular fa-heart"></i> Save For
                                 Later</h3>
                         </div>
                     </div>
-                    <div className="d-flex mt-3">
+                    <div className="d-flex mt-sm-5 mt-lg-3">
                         <div className="cart-rate">
                             <strike className="font-14 color-767676 fw-500 jost">₹{props.productPrice}</strike>
                             <h4 className="jost font-18 color-22222 fw-600">₹{props.discountPrice}</h4>
                         </div>
-                        <div className="d-flex savings">
+                        <div className="sm-none d-flex  savings">
                             <img src={img2} alt="" />
                             <div>
                                 <h5 className="color-6 jost fw-600 font-14 mb-0">Save {props.savingPrice}</h5>
