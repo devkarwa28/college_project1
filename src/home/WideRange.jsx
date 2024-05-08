@@ -12,6 +12,7 @@ import chest_drawer from '../images/chest_drawer.jpg';
 import sideboards from '../images/sideboards.jpg';
 import bar_cabinets from '../images/bar_cabinets.jpg';
 import right from '../images/chevron-right.svg';
+import { Link } from "react-router-dom";
 
 function WideRange() {
     return (
@@ -24,12 +25,14 @@ function WideRange() {
                     </p>
                     <div className="row m-b31">
                         <div className="col-6 col-lg-2">
+                            <Link to='/list'>
                             <div className="wide-range-box">
                                 <div className="cat-box">
                                     <img src={sofa_set} alt="" />
                                 </div>
                                 <h6>Sofa Sets</h6>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-6 col-lg-2">
                             <div className="wide-range-box">
