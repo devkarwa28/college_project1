@@ -64,7 +64,7 @@ function BestSelling() {
                 <div className="container">
                     <h1>Best Selling Products</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat viverra sed elit dignissim nibh in a. In mauris eget bibendum gravida
+                    Must have collection
                     </p>
                     <div className="row">
                         <Slider {...settings}>

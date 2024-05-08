@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Card2 from "../global/Card2";
 import { Card2_detail } from "../global/P-data";
 import img1 from '../images/chevron-right.svg'
+import { Link } from "react-router-dom";
 
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
@@ -72,7 +73,7 @@ function BedroomFurniture() {
                             </h2>
                         </div>
                         <div className="sm-none">
-                            <a href="" className="view-all">View All</a>
+                            <Link to='/list'><a href="" className="view-all">View All</a></Link>
                         </div>
                     </div>
 

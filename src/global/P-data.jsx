@@ -1,14 +1,14 @@
 const pData = [
     {
         id: 1,
-        imglink: "../images/sec4-1.png",
+        imglink: "../images/sec4-2.png",
         pName: "Grace Sheesham wood 3 1 1 Sofa Set",
         dPrice: "58,822",
         sPrice: "69,997"
     },
     {
         id: 2,
-        imglink: "../images/sec4-2.png",
+        imglink: "./images/sec4-2.png",
         pName: "Gaz 6 Seater Dining Set",
         dPrice: "56,000",
         sPrice: "70,150"

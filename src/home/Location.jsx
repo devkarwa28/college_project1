@@ -53,12 +53,12 @@ function Location(){
 
                         </div>
                         <h3 className="jost font-24 fw-500 color-22222">
-                            Chokha
+                            Banar
                         </h3>
                         <p className="jost font-15 fw-normal color-767676">
-                            No.-65,Near Hariyali Hotel,Karthik nagar, Jodhpur  - 342006 
+                            No.-190,Karthik nagar,Banar Road,Jodhpur  - 342006 
                             <br/>
-                            ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
+                            ( Near Gattani Hospital ) 
                         </p>
                         <button className="btn-1 jost font-15 fw-500">
                             Get Directions<i className="fa-solid fa-angle-right"></i>
@@ -71,10 +71,10 @@ function Location(){
 
                         </div>
                         <h3 className="jost font-24 fw-500 color-22222">
-                            BASNI
+                            Basni
                         </h3>
                         <p className="jost font-15 fw-normal color-767676">
-                            No.-35,Sector-1, Basni , Jodhpur - 342001 ( Near Sony World Si , After Ejipura signal on 100 feet inner ring road towards sony signal )
+                            No.-35,Sector-1, Basni , Jodhpur - 342001
                         </p>
                         <button className="btn-1 jost font-15 fw-500">
                             Get Directions<i className="fa-solid fa-angle-right"></i>
@@ -87,14 +87,14 @@ function Location(){
     
                             </div>
                             <h3 className="jost font-24 fw-500 color-22222">
-                                Marathalli
+                                Pal Road
                         </h3>
                             <p className="jost font-15 fw-normal color-767676">
-                                No.-65, LRDE Layout, Karthik nagar, O.R.R Bangalore - 560037 
+                                No.-38,Mahadev Nagar,DPS circle,Jodhpur - 342006
                                 <br/>
-                                ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
+                                ( Near Kasturi Orchid ) 
                             </p>
-                            <a href="https://g.page/jodhpuri-furniture-bangalore?share">
+                            <a href="">
                             <button className="btn-1 jost font-15 fw-500">
                                 Get Directions<i className="fa-solid fa-angle-right"></i>
                             </button>
@@ -107,12 +107,12 @@ function Location(){
 
                         </div>
                         <h3 className="jost font-24 fw-500 color-22222">
-                            Marathalli
+                            Mata Ka Than
                         </h3>
                         <p className="jost font-15 fw-normal color-767676">
-                            No.-65, LRDE Layout, Karthik nagar, O.R.R Bangalore - 560037 
+                            No.-15,Karthik nagar,Mata Ka Than,Jodhpur - 342006
                             <br/>
-                            ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
+                            ( Near Rainbow Hospital ) 
                         </p>
                         <button className="btn-1 jost font-15 fw-500">
                             Get Directions<i className="fa-solid fa-angle-right"></i>
@@ -125,14 +125,14 @@ function Location(){
     
                             </div>
                             <h3 className="jost font-24 fw-500 color-22222">
-                                Marathalli
+                            B.J.S
                         </h3>
                             <p className="jost font-15 fw-normal color-767676">
-                                No.-65, LRDE Layout, Karthik nagar, O.R.R Bangalore - 560037 
+                                No.-122,RTO Office Backside,BJS,Jodhpur - 342006
                                 <br/>
-                                ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
+                                ( Near RTO Office Banar Road ) 
                             </p>
-                            <a href="https://g.page/jodhpuri-furniture-bangalore?share">
+                            <a href="">
                             <button className="btn-1 jost font-15 fw-500">
                                 Get Directions<i className="fa-solid fa-angle-right"></i>
                             </button>
@@ -145,14 +145,14 @@ function Location(){
     
                             </div>
                             <h3 className="jost font-24 fw-500 color-22222">
-                                Marathalli
+                            Boranada
                         </h3>
                             <p className="jost font-15 fw-normal color-767676">
-                                No.-65, LRDE Layout, Karthik nagar, O.R.R Bangalore - 560037 
+                                No.-65,Phase-3,Boranada,Jodhpur - 342006
                                 <br/>
                                 ( Near Rainbow Hospital After Bagmane Tech Park on Outer Ring Road ) 
                             </p>
-                            <a href="https://g.page/jodhpuri-furniture-bangalore?share">
+                            <a href="">
                             <button className="btn-1 jost font-15 fw-500">
                                 Get Directions<i className="fa-solid fa-angle-right"></i>
                             </button>

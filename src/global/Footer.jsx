@@ -79,19 +79,19 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                        Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                        Whimsical Woods, No.23, Devdutt Nagar, CHB, Jodhpur, 342006
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65,Viswakarma NAgar, Mata ka Than, Jodhpur, 342006
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.86,Dadhich Nagar,9 mile, Jodhpur, 342006
                         </p>
                     </div>
                     
@@ -101,13 +101,13 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, , Jodhpur, 560037
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Bengaluru, 560037
+                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Jodhpur, 560037
                         </p>
                     </div>
                 </div>
