@@ -114,6 +114,13 @@ a {
     top: 10px;
     left: 10px;
 }
+.card1{
+    .card1-img{
+        img{
+            width: 100% !important;
+        }
+    }
+}
 .discount {
     background-color: $main-color5;
     padding: 13px 0px;
@@ -550,7 +557,10 @@ header {
         margin-top: 12px;
     }
     .sec6-bg1 {
-        @include box-w;
+        width: 100%;
+        img{
+            width: 100%;
+        }
     }
 }
 
@@ -1075,7 +1085,10 @@ footer {
         margin-top: 32px;
         position: relative;
         .list-box-img{
-            @include hover-opacity
+            @include hover-opacity;
+            img{
+                width: 100%;
+            }
         }
         strike {
             margin-left: 9px;
@@ -1120,7 +1133,7 @@ footer {
     color: #ffffff;
     font-family: $ff-1;
     position: absolute;
-    top: 170px;
+    top: 307px;
     transition: 300ms ease;
     opacity: 0;
 }

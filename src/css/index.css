@@ -144,6 +144,10 @@ a {
   left: 10px;
 }
 
+.card1 .card1-img img {
+  width: 100% !important;
+}
+
 .discount {
   background-color: #FAF8F4;
   padding: 13px 0px;
@@ -684,8 +688,10 @@ header .container2 .account i:hover {
   margin-top: 12px;
 }
 .card2 .sec6-bg1 {
-  width: 324px;
-  height: 232px;
+  width: 100%;
+}
+.card2 .sec6-bg1 img {
+  width: 100%;
 }
 
 .section-7 {
@@ -1309,6 +1315,9 @@ footer .loctaion i {
 .listing-section2 .list-box .list-box-img:hover .add-to-cart {
   opacity: 1;
 }
+.listing-section2 .list-box .list-box-img img {
+  width: 100%;
+}
 .listing-section2 .list-box strike {
   margin-left: 9px;
 }
@@ -1353,7 +1362,7 @@ footer .loctaion i {
   color: #ffffff;
   font-family: "Jost", sans-serif;
   position: absolute;
-  top: 170px;
+  top: 307px;
   transition: 300ms ease;
   opacity: 0;
 }

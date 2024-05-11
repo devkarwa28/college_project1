@@ -9,7 +9,7 @@ function SamplePrevArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 95 }}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 192 }}
             onClick={onClick}
         >
             <i class="fa-solid fa-angle-left text-center font-16 ms-2"></i>
@@ -21,7 +21,7 @@ function SampleNextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 95, right: 0 }}
+            style={{ ...style, display: "flex", background: "white", height: 36, width: 27, placeItems: "center", top: 192, right: 0 }}
             onClick={onClick}
         >
             <i class="fa-solid fa-angle-right text-center font-16 ms-2"></i>

@@ -349,7 +349,7 @@ const Listing_main = () => {
                         <div className="col-lg-9">
                             <div className="sorting-bar d-flex justify-content-between">
                                 <div className="d-flex">
-                                    <button onc>
+                                    <button>
                                         <img src="images/2.svg" alt="" />
                                     </button>
                                     <button>
