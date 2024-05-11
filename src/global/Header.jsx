@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import img1 from '../images/logo.png';
 import img2 from '../images/mega-img.png';
 import img3 from '../images/store.svg';
 import study from '../images/STUDY.jpg';
@@ -28,7 +27,7 @@ function Header() {
                             <button class="menu-btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                 <img src={menu} />
                             </button>
-                            <Link to='/'><img src={img1} alt="" className="logo" /></Link>
+                            <Link to='/'><img src='' alt="Your Company's Logo" className="logo" /></Link>
                         </div>
                         {/* off Canvas Started */}
                         <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -37,7 +36,7 @@ function Header() {
                                     <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="">
                                         <img src={backimg} />
                                     </button>
-                                    <Link to='/'><img src={img1} alt="" className="logo" /></Link>
+                                    <Link to='/'><img src='' alt="LOGO" className="logo" /></Link>
                                 </div>
 
                                 <div>

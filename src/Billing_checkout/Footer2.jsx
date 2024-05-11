@@ -7,7 +7,7 @@ function Footer2(){
         <div className="disclaimer2 container-fluid">
         <div className="container2 d-flex justify-content-between">
 
-            <h1 className="color-767676 fw-normal jost font-16">Copyright 2022 © Jodhpuri Furniture - All Rights Reserved.</h1>
+            <h1 className="color-767676 fw-normal jost font-16">Copyright 2024 © Your Company Name - All Rights Reserved.</h1>
             <img src={payment} alt=""/>
         </div>
      </div>

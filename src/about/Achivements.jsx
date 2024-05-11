@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from '../images/play-btn.svg';
 
 function Achivements(){
     return(
@@ -9,9 +8,9 @@ function Achivements(){
             <div className="row">
                 <div className="col-lg-5">
                     <div className="about-us-3-box">
-                        <h1 className="font-32 jost color-2 fw-500 mb-2">Jodhpuri Furniture Archivements</h1>
+                        <h1 className="font-32 jost color-2 fw-500 mb-2">Your Company's  Archivements</h1>
                         <p className="font-16 jost color-2 fw-normal">
-                            Jodhpuri endeavors to build an online furniture destination in India by giving customers
+                            Your Company endeavors to build an online furniture destination in India by giving customers
                             more of what they want – low prices, vast selection, fast and reliable delivery and a
                             trusted and convenient experience.
                         </p>
@@ -57,7 +56,7 @@ function Achivements(){
             <div className="row">
                 <div className="col-lg-12">
                     <div className="video-about d-grid ">
-                        <img src={img1} alt="" className=""/>
+                    <iframe className="video_ad" src="https://www.youtube.com/embed/afCtix2-BGI?si=s0POdO3kFO6vxSQl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

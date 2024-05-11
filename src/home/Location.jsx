@@ -42,7 +42,7 @@ function Location(){
         <>
         <section className="section-10 container-fluid">
         <div className="container">
-            <h1>#Whimsical Woods</h1>
+            <h1>#Your Company Name</h1>
             <h2 >Offline Furniture Experience Store</h2>
 
             <div className="row">

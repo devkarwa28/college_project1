@@ -38,16 +38,6 @@ const cart_detail = [
         productPrice: "69,997",
         discountPrice: "58,822",
         savingPrice: "10,000"
-    },
-    {
-        id: 4,
-        imglink: "images/cart-item1.png",
-        productName: "Scott Queen Size Bed with Drawer Storage",
-        bedSize: "Queen",
-        finishName: "Brown",
-        productPrice: "69,997",
-        discountPrice: "58,822",
-        savingPrice: "10,000"
     }
 ];
 export default cart_detail;

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from '../images/logo.png';
 
 function Footer(){
     return(
@@ -11,12 +10,12 @@ function Footer(){
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="footer-1-1">
-                            <a href=""><img src={img1} alt=""/></a>
+                            <a href=""><img src='' alt="Your Company's Logo"/></a>
                             <h1 className="jost font-16 color-767676"> 
-                                Buy all solid sheesham wood furniture online in Bangalore at best price only on Whimsical Woods store.
+                                Buy all solid sheesham wood furniture online in Jodhpur at best price only on (Your Company Name) store.
                             </h1>
                             <div>
-                            <a href="" className="jost font-16 color-767676"> info@whimsicalwoods.com</a> |
+                            <a href="" className="jost font-16 color-767676"> info@yourcompanyname.com</a> |
                             <a href="tel:7611077344" className="jost font-16 color-767676"> +91 7611077344</a>
                             </div>
                             <div className="social-media">
@@ -46,7 +45,7 @@ function Footer(){
                         <div className="footer1-3">
                             <h2 className="font-20 fw-600 jost color-22222">Customer Services</h2>
                             <ul className="p-0">
-                                <li><a href="">Sell On Whimsical Woods</a></li>
+                                <li><a href="">Sell On (Your Company Name)</a></li>
                                 <li><a href="">Security & Privacy</a></li>
                                 <li><a href="">Return & Refund</a></li>
                                 <li><a href="">Payment Policy</a></li>
@@ -79,19 +78,19 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                        Whimsical Woods, No.23, Devdutt Nagar, CHB, Jodhpur, 342006
+                        (Your Company Name), No.23, Devdutt Nagar, CHB, Jodhpur, 342006
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65,Viswakarma NAgar, Mata ka Than, Jodhpur, 342006
+                            (Your Company Name), No.65,Viswakarma NAgar, Mata ka Than, Jodhpur, 342006
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.86,Dadhich Nagar,9 mile, Jodhpur, 342006
+                            (Your Company Name), No.86,Dadhich Nagar,9 mile, Jodhpur, 342006
                         </p>
                     </div>
                     
@@ -101,13 +100,13 @@ function Footer(){
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, , Jodhpur, 560037
+                            (Your Company Name), No.65, LRDE Layout, , Jodhpur, 560037
                         </p>
                     </div>
                     <div className="location-box d-flex">
                         <i className="fa-solid fa-location-dot"></i>
                         <p className="jost color-767676 font-16 mb-0">
-                            Whimsical Woods, No.65, LRDE Layout, Marathahalli, Jodhpur, 560037
+                            (Your Company Name), No.65, LRDE Layout, Marathahalli, Jodhpur, 560037
                         </p>
                     </div>
                 </div>

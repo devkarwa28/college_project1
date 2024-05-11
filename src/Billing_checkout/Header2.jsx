@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../images/logo.png'
 import img1 from '../images/active-cart.svg'
 import img2 from '../images/map-pin.svg'
 import img3 from '../images/payment.svg'
@@ -12,7 +11,7 @@ function Header2(){
             <div className="header-2 container-fluid">
         <div className="container2">
             <div className="d-flex">
-                <Link to='/'><img src={logo} alt="" className="img1"/></Link>
+                <Link to='/'><img src='' alt="Your Company's Logo" className="img1"/></Link>
                 <div className="progress-bar-cart d-flex">
                     <div className="d-flex">
                         <img src={img1} alt=""/>

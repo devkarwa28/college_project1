@@ -13,7 +13,7 @@ function About_1(){
                     <div className="about-content">
                         <h1 className="color-6 fw-normal font-16 jost mb-2">WELCOME TO OUR COMPANY</h1>
                         <h2 className="font-32 jost fw-500 color-2">
-                            Jodhpurifurniture.com is a one stop
+                            YourCompany.com is a one stop
                             <br/>
                             shop for all your furniture and
                             <br/>
